@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "lib": ["ES2022"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "dist-scripts",
+    "rootDir": ".",
+    "types": ["node"]
+  },
+  "include": ["scripts/**/*.ts", "lib/dailyGames.ts", "lib/generateGame.ts", "lib/genPrompts.ts", "lib/genValidate.ts", "lib/puzzles.ts", "lib/seededRandom.ts", "lib/zen.ts"]
+}

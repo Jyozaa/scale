@@ -1,0 +1,91 @@
+# Generates today's Scale game via the OpenCode Zen API and commits it.
+#
+# - Runs daily at 00:05 UTC for the current UTC date.
+# - Manual runs: Actions → "Generate daily game" → Run workflow (optional date).
+# - The key comes ONLY from the OPENCODE_API_KEY repository secret.
+# - Pushing with GITHUB_TOKEN does not re-trigger this workflow (it has no
+#   `push` trigger), so there is no commit loop.
+
+name: Generate daily game
+
+on:
+  schedule:
+    - cron: "5 0 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Game date (YYYY-MM-DD). Leave empty for today (UTC)."
+        required: false
+        default: ""
+      dry_run:
+        description: "Validate only — do not write or commit anything."
+        required: false
+        default: "false"
+        type: choice
+        options: ["false", "true"]
+
+# One game per date: concurrent scheduled/manual runs serialize instead of
+# racing, and the script's existing-file check keeps the first result.
+concurrency:
+  group: scale-daily-game
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Resolve game date (UTC)
+        id: gamedate
+        run: |
+          if [ -n "${{ inputs.date }}" ]; then
+            echo "date=${{ inputs.date }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "date=$(date -u +%F)" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Generate daily game
+        env:
+          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+          OPENCODE_MODEL: ${{ vars.OPENCODE_MODEL }}
+        run: |
+          ARGS="--date ${{ steps.gamedate.outputs.date }}"
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          npm run generate:daily -- $ARGS
+
+      - name: Commit game file
+        if: inputs.dry_run != 'true'
+        run: |
+          DATE="${{ steps.gamedate.outputs.date }}"
+          FILE="data/games/$DATE.json"
+          if [ ! -f "$FILE" ]; then
+            echo "No game file produced at $FILE — failing."
+            exit 1
+          fi
+          git config user.name "scale-bot"
+          git config user.email "scale-bot@users.noreply.github.com"
+          git add "$FILE"
+          if git diff --cached --quiet; then
+            echo "Game file unchanged — nothing to commit."
+            exit 0
+          fi
+          NUM=$(node -p "JSON.parse(require('fs').readFileSync('$FILE','utf8')).gameNumber")
+          git commit -m "chore(scale): generate daily game $NUM ($DATE)"
+          git pull --rebase --autostash
+          git push

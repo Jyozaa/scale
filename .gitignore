@@ -1,0 +1,13 @@
+node_modules
+.next
+out
+dist-test
+dist-scripts
+# Stale local compile outputs — sources of truth are the .ts files.
+lib/*.js
+*.log
+.DS_Store
+# Local secrets — the OpenCode key must never be committed.
+.env
+.env.local
+.env*.local
