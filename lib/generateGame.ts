@@ -3,7 +3,7 @@
  *
  * Pass 1 (generator) produces 3 candidates; pass 2 (critic) audits and
  * corrects them. The network call is injected (`requestText`) so tests mock
- * it and the real script passes the Zen client. Retries are bounded:
+ * it and the real script passes the Gemini client. Retries are bounded:
  * GENERATOR_ATTEMPTS generator tries, then CRITIC_ATTEMPTS critic tries.
  * Anything left failing throws GenerationFailedError and the caller falls
  * back to the bundled pool (see fallbackGameForDate).
@@ -15,7 +15,7 @@ import {
   QUESTIONS_JSON_SCHEMA,
 } from "./genPrompts";
 import { validateQuestions, type CandidateQuestion } from "./genValidate";
-import { safeParseJson } from "./zen";
+import { safeParseJson } from "./gemini";
 
 export const GENERATOR_ATTEMPTS = 3;
 export const CRITIC_ATTEMPTS = 2;

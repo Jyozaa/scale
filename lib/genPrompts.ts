@@ -8,7 +8,7 @@
  * lib/feedback.ts), no citations/URLs, stable Fermi-style quantities only.
  */
 
-import type { JsonSchemaSpec } from "./zen";
+import type { JsonSchemaSpec } from "./gemini";
 
 /** Strict-mode JSON schema: every property required, no extras. */
 export const QUESTIONS_JSON_SCHEMA: JsonSchemaSpec = {

@@ -1,8 +1,8 @@
-# Generates today's Scale game via the OpenCode Zen API and commits it.
+# Generates today's Scale game via the Google Gemini API and commits it.
 #
 # - Runs daily at 00:05 UTC for the current UTC date.
 # - Manual runs: Actions → "Generate daily game" → Run workflow (optional date).
-# - The key comes ONLY from the OPENCODE_API_KEY repository secret.
+# - The key comes ONLY from the GEMINI_API_KEY repository secret.
 # - Pushing with GITHUB_TOKEN does not re-trigger this workflow (it has no
 #   `push` trigger), so there is no commit loop.
 
@@ -60,8 +60,8 @@ jobs:
 
       - name: Generate daily game
         env:
-          OPENCODE_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
-          OPENCODE_MODEL: ${{ vars.OPENCODE_MODEL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
         run: |
           ARGS="--date ${{ steps.gamedate.outputs.date }}"
           if [ "${{ inputs.dry_run }}" = "true" ]; then

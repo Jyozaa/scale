@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "date": "2026-09-18",
+  "gameNumber": 80,
+  "generatedAt": "2026-09-18T08:39:45.725Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many piano tuners are there in New York City?",
+      "answer": 250,
+      "unit": "people",
+      "category": "employment",
+      "reasoning": [
+        "Estimate NYC population at 8 million, giving roughly 3 million households.",
+        "Assume about 10 percent of households own a piano, which is 300,000 pianos.",
+        "Assume each piano is tuned once every two years, resulting in 150,000 tunings per year.",
+        "If a tuner can tune 600 pianos a year, dividing total tunings by workload yields about 250 tuners."
+      ],
+      "difficulty": 3,
+      "id": "2026-09-18-01"
+    },
+    {
+      "prompt": "How many strands of human hair are on an average human head?",
+      "answer": 100000,
+      "unit": "strands",
+      "category": "biology",
+      "reasoning": [
+        "A typical human scalp has an area of roughly 500 square centimetres.",
+        "Hair density on the scalp averages about 200 hairs per square centimetre.",
+        "Multiplying the scalp area by the hair density yields 100000 hairs."
+      ],
+      "difficulty": 1,
+      "id": "2026-09-18-02"
+    },
+    {
+      "prompt": "How many grains of sand are in a typical bucket of beach sand?",
+      "answer": 10000000,
+      "unit": "grains",
+      "category": "nature",
+      "reasoning": [
+        "Assume a standard bucket holds about 10 litres or 10000 cubic centimetres of sand.",
+        "Fine beach sand has grains with a volume of roughly one cubic millimetre, or 0.001 cubic centimetres.",
+        "Dividing the volume of the bucket by the volume of a single grain gives 10 million grains."
+      ],
+      "difficulty": 2,
+      "id": "2026-09-18-03"
+    }
+  ]
+}

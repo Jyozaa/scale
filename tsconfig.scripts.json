@@ -11,5 +11,5 @@
     "rootDir": ".",
     "types": ["node"]
   },
-  "include": ["scripts/**/*.ts", "lib/dailyGames.ts", "lib/generateGame.ts", "lib/genPrompts.ts", "lib/genValidate.ts", "lib/puzzles.ts", "lib/seededRandom.ts", "lib/zen.ts"]
+  "include": ["scripts/**/*.ts", "lib/dailyGames.ts", "lib/generateGame.ts", "lib/genPrompts.ts", "lib/genValidate.ts", "lib/puzzles.ts", "lib/seededRandom.ts", "lib/gemini.ts"]
 }

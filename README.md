@@ -27,7 +27,7 @@ npm test        # compile lib + tests, run node:test suites
 npm run typecheck
 npm run lint
 npm run build
-npm run generate:daily       # generate today's game (needs OPENCODE_API_KEY)
+npm run generate:daily       # generate today's game (needs GEMINI_API_KEY)
 ```
 
 A fresh `npm install && npm run dev` is all you need — no env vars, no backend.
@@ -59,7 +59,7 @@ lib/
   genPrompts.ts     # generator + critic prompts, strict JSON schema
   genValidate.ts    # runtime validation + duplicate detection (no new deps)
   generateGame.ts   # two-pass orchestration (network injectable for tests)
-  zen.ts            # OpenCode Zen Responses client (server/script only)
+  gemini.ts           # Google Gemini client via @google/genai (server/script only)
   scoring.ts        # factor, geometric mean, direction, factor formatting
   formatting.ts     # estimate parsing (1,200 / 1.2k / 2.4m / 3b) + display
   persistence.ts    # localStorage store, isolated from UI
@@ -72,7 +72,7 @@ data/games/
   YYYY-MM-DD.json   # one committed game file per day (the archive)
 test/
   scoring, formatting, puzzles, seededRandom, players, share suites
-  dailyGames, zen suites (schema, duplicates, fallback, loading, mocked LLM)
+  dailyGames, gemini suites (schema, duplicates, fallback, loading, mocked LLM)
 ```
 
 No UI framework beyond React + Tailwind; no animation, icon, or chart libraries.
@@ -114,13 +114,15 @@ The model is never called from a browser — generation happens once per day
 in GitHub Actions (or manually via CLI), and the result is committed as JSON.
 The app simply loads today's saved file.
 
-Flow: Actions (00:05 UTC) → OpenCode Zen API (`muse-spark-1.3-contributor-free`)
+Flow: Actions (00:05 UTC) → Google Gemini API (`gemini-3.5-flash-lite`)
 → generator pass → runtime validation → critic pass → validation again
 → write `data/games/YYYY-MM-DD.json` → commit + push → deploy serves it.
 
-- **Endpoint/model:** `https://opencode.ai/zen/v1/responses`, model from
-  `OPENCODE_MODEL` (default `muse-spark-1.3-contributor-free`). To change the
-  model later, set the `OPENCODE_MODEL` variable (Actions) or env var (local).
+- **Provider/model:** Google Gemini via the official `@google/genai` SDK,
+  model from `GEMINI_MODEL` (default `gemini-3.5-flash-lite`). To change the
+  model later, set the `GEMINI_MODEL` variable (Actions) or env var (local).
+  The browser never calls Gemini — generation runs server-side in Actions/CLI
+  only, and each request has a 45s hard timeout with bounded retries.
 - **File location:** `data/games/YYYY-MM-DD.json` — these files ARE the
   archive. Each carries `date`, `gameNumber` (from the launch-date math in
   `lib/puzzles.ts`, the single central helper), `generatedAt`, `model`,
@@ -142,7 +144,8 @@ Flow: Actions (00:05 UTC) → OpenCode Zen API (`muse-spark-1.3-contributor-free
   a soft preference (warning, not rejection). No URLs/citations allowed —
   unverifiable sources are omitted, not fabricated.
 - **Retries:** bounded (3 generator + 2 critic attempts; exponential backoff
-  on network/5xx). Persistent failure → deterministic pool fallback is still
+  on network/timeout/5xx, one delayed retry on transient 429, fail-fast on
+  exhausted quota). Persistent failure → deterministic pool fallback is still
   written with `"generationMode": "fallback"`, so a day never has no game.
 - **Idempotency:** existing files are never overwritten (scheduler-safe);
   `--force` is dev-only. Concurrency group `scale-daily-game` serializes runs.
@@ -150,8 +153,9 @@ Flow: Actions (00:05 UTC) → OpenCode Zen API (`muse-spark-1.3-contributor-free
   `npm run generate:daily` (today, UTC) ·
   `npm run generate:daily -- --date 2026-09-18` ·
   `npm run generate:daily -- --dry-run` (validate + print, write nothing).
-  Local runs read `OPENCODE_API_KEY` from the environment (see `.env.example`).
-- **Key safety:** the key lives only in the `OPENCODE_API_KEY` GitHub secret
+  Local runs read `GEMINI_API_KEY` from the environment or a gitignored
+  `.env.local` file (see `.env.example`).
+- **Key safety:** the key lives only in the `GEMINI_API_KEY` GitHub secret
   and local env — never in code, JSON, logs, or `NEXT_PUBLIC_*` variables.
 
 ## Scoring

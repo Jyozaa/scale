@@ -7,7 +7,7 @@ dist-scripts
 lib/*.js
 *.log
 .DS_Store
-# Local secrets — the OpenCode key must never be committed.
+# Local secrets — the Gemini key must never be committed.
 .env
 .env.local
 .env*.local

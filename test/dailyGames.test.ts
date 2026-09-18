@@ -65,7 +65,7 @@ function gameFile(date: string, n: number, mode: "llm" | "fallback" = "llm"): Ge
     date,
     gameNumber: n,
     generatedAt: "2026-09-16T00:05:00.000Z",
-    model: "muse-spark-1.3-contributor-free",
+    model: "gemini-3.5-flash-lite",
     generationMode: mode,
     questions: trio().map((q, i) => ({ ...q, id: `${date}-0${i + 1}` })),
   };
@@ -185,7 +185,7 @@ describe("game file persistence", () => {
 
 describe("fallback", () => {
   it("produces exactly 3 valid questions in fallback mode", () => {
-    const game = fallbackGameForDate("2026-09-17", "muse-spark-1.3-contributor-free");
+    const game = fallbackGameForDate("2026-09-17", "gemini-3.5-flash-lite");
     assert.equal(game.generationMode, "fallback");
     assert.equal(game.gameNumber, numberForDate("2026-09-17"));
     assert.equal(game.questions.length, 3);

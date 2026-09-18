@@ -7,9 +7,10 @@
  *   npm run generate:daily -- --dry-run         # validate only, write nothing
  *   npm run generate:daily -- --force            # overwrite an existing file
  *
- * Key ONLY from OPENCODE_API_KEY env var. Model from OPENCODE_MODEL
- * (default muse-spark-1.3-contributor-free). The key is never logged,
- * never written to files, and never sent anywhere except the Zen API.
+ * Key ONLY from GEMINI_API_KEY env var (exported in the shell or placed
+ * in a gitignored .env.local file, which this script loads). Model from
+ * GEMINI_MODEL (default gemini-3.5-flash-lite). The key is never logged,
+ * never written to files, and never sent anywhere except the Gemini API.
  */
 
 import {
@@ -24,7 +25,45 @@ import {
 } from "../lib/dailyGames";
 import { numberForDate } from "../lib/puzzles";
 import { QUESTIONS_JSON_SCHEMA, generateDailyQuestions } from "../lib/generateGame";
-import { DEFAULT_MODEL, ZenApiError, requestZenText } from "../lib/zen";
+import { DEFAULT_MODEL, GeminiApiError, requestGeminiText } from "../lib/gemini";
+import fs from "node:fs";
+import path from "node:path";
+
+/**
+ * Small safe local env loader (no new dependencies).
+ * Loads `.env.local` then `.env` from the repo root so
+ * `npm run generate:daily` works without manual exports.
+ * Shell-exported variables always win — files never overwrite them.
+ */
+function loadLocalEnv(): void {
+  const candidates = [".env.local", ".env"];
+  for (const name of candidates) {
+    let raw: string;
+    try {
+      raw = fs.readFileSync(path.join(process.cwd(), name), "utf8");
+    } catch {
+      continue;
+    }
+    for (const line of raw.split("\n")) {
+      const trimmed = line.trim();
+      if (!trimmed || trimmed.startsWith("#") || !trimmed.includes("=")) continue;
+      const eq = trimmed.indexOf("=");
+      const key = trimmed.slice(0, eq).trim();
+      if (!/^[A-Za-z_][A-Za-z0-9_]*$/.test(key)) continue;
+      if (process.env[key] !== undefined) continue;
+      let value = trimmed.slice(eq + 1).trim();
+      if (
+        (value.startsWith('"') && value.endsWith('"') && value.length >= 2) ||
+        (value.startsWith("'") && value.endsWith("'") && value.length >= 2)
+      ) {
+        value = value.slice(1, -1);
+      }
+      process.env[key] = value;
+    }
+  }
+}
+
+loadLocalEnv();
 
 function utcToday(): string {
   return new Date().toISOString().slice(0, 10);
@@ -64,7 +103,11 @@ function parseArgs(argv: string[]): { date: string; force: boolean; dryRun: bool
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
-/** Network/5xx retries with exponential backoff. No infinite loops. */
+/**
+ * Network/5xx/timeout retries with exponential backoff. No infinite loops.
+ * Transient rate limits (429) get ONE retry after a longer delay; exhausted
+ * quota fails fast so the deterministic fallback pool can take over.
+ */
 async function requestWithBackoff(
   kind: "generate" | "critic",
   prompt: string,
@@ -73,18 +116,25 @@ async function requestWithBackoff(
   log: (m: string) => void
 ): Promise<string> {
   const delays = [1000, 2000, 4000];
+  let rateLimitRetried = false;
   for (let attempt = 0; ; attempt++) {
     try {
-      return await requestZenText(
+      return await requestGeminiText(
         { apiKey, model, input: prompt, jsonSchema: QUESTIONS_JSON_SCHEMA, maxOutputTokens: 3000 },
         undefined
       );
     } catch (e) {
-      const err = e as ZenApiError;
-      const retryable = err.status === 0 || err.status === 429 || err.status >= 500;
-      if (retryable && attempt < delays.length) {
+      const err = e as GeminiApiError;
+      const transient = err.status === 0 || err.status >= 500;
+      if (transient && attempt < delays.length) {
         log(`  [${kind}] request failed (${err.message.slice(0, 120)}), backing off ${delays[attempt]}ms…`);
         await sleep(delays[attempt]);
+        continue;
+      }
+      if (err.status === 429 && !err.isQuotaError && !rateLimitRetried) {
+        rateLimitRetried = true;
+        log(`  [${kind}] rate limited, waiting 10000ms before one retry…`);
+        await sleep(10000);
         continue;
       }
       throw e;
@@ -105,8 +155,8 @@ function summarize(game: GeneratedGameFile): string {
 async function main(): Promise<void> {
   const { date, force, dryRun } = parseArgs(process.argv.slice(2));
   const log = (m: string) => console.log(`[generate:daily] ${m}`);
-  const apiKey = process.env.OPENCODE_API_KEY ?? "";
-  const model = process.env.OPENCODE_MODEL?.trim() || DEFAULT_MODEL;
+  const apiKey = process.env.GEMINI_API_KEY ?? "";
+  const model = process.env.GEMINI_MODEL?.trim() || DEFAULT_MODEL;
   const gameNumber = numberForDate(date);
 
   log(`Target: ${date} → Scale #${gameNumber} (model: ${model}${apiKey ? "" : ", NO API KEY"})`);
@@ -123,22 +173,26 @@ async function main(): Promise<void> {
   let game: GeneratedGameFile | null = null;
 
   if (!apiKey) {
-    log("OPENCODE_API_KEY is not set — skipping LLM generation, using pool fallback.");
+    log("GEMINI_API_KEY is not set — skipping LLM generation, using pool fallback.");
   } else {
     try {
-      log("Pass 1/2: requesting 3 candidate questions from OpenCode Zen…");
+      log("Pass 1/2: requesting 3 candidate questions from Gemini…");
+      let criticAnnounced = false;
       const res = await generateDailyQuestions({
         dateISO: date,
         gameNumber,
         recentPrompts: recent,
         poolPrompts: poolPrompts(),
-        requestText: (kind, prompt) => requestWithBackoff(kind, prompt, apiKey, model, log),
+        requestText: (kind, prompt) => {
+          if (kind === "critic" && !criticAnnounced) {
+            criticAnnounced = true;
+            log("Pass 2/2: critic reviewing generated questions…");
+          }
+          return requestWithBackoff(kind, prompt, apiKey, model, log);
+        },
       });
       for (const w of res.warnings) log(`warning: ${w}`);
-      log(
-        `Pass 2/2 done: critic accepted 3 questions ` +
-          `(generator attempts: ${res.generatorAttempts}, critic attempts: ${res.criticAttempts}).`
-      );
+      log(`Pass 2/2 done: critic accepted 3 questions.`);
       game = {
         version: 1,
         date,
