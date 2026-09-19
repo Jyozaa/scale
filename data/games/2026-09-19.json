@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-09-19",
+  "gameNumber": 81,
+  "generatedAt": "2026-09-19T04:18:59.576Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many grains of rice are in a standard one-kilogram bag of uncooked long-grain white rice?",
+      "answer": 50000,
+      "unit": "grains",
+      "category": "food",
+      "reasoning": [
+        "A single long-grain white rice kernel weighs approximately 0.02 grams.",
+        "One kilogram equals 1000 grams.",
+        "Dividing 1000 grams by 0.02 grams per grain yields 50000 grains."
+      ],
+      "difficulty": 2,
+      "id": "2026-09-19-01"
+    },
+    {
+      "prompt": "How many complete orbits does the International Space Station make around Earth in a single year?",
+      "answer": 5840,
+      "unit": "orbits",
+      "category": "space",
+      "reasoning": [
+        "The International Space Station takes roughly 90 minutes to complete one orbit around Earth.",
+        "There are 24 hours in a day, meaning 16 orbits are completed each day.",
+        "Multiplying 16 orbits per day by 365 days in a year gives 5840 orbits."
+      ],
+      "difficulty": 2,
+      "id": "2026-09-19-02"
+    },
+    {
+      "prompt": "How many sheets of standard A4 paper stacked flat on top of each other would reach a height of one kilometre?",
+      "answer": 100000,
+      "unit": "sheets",
+      "category": "everyday life",
+      "reasoning": [
+        "A standard sheet of 80 gsm A4 paper has a thickness of approximately 0.1 millimetres.",
+        "One kilometre is equal to 1000000 millimetres.",
+        "Dividing 1000000 millimetres by 0.1 millimetres per sheet gives 100000 sheets."
+      ],
+      "difficulty": 1,
+      "id": "2026-09-19-03"
+    }
+  ]
+}
