@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-09-20",
+  "gameNumber": 82,
+  "generatedAt": "2026-09-20T04:37:23.371Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many individual blades of grass are on a regulation soccer pitch?",
+      "answer": 2450000000,
+      "unit": "blades",
+      "category": "nature",
+      "reasoning": [
+        "A regulation soccer pitch has an area of roughly 7000 square metres.",
+        "A square metre of dense turf contains about 350000 individual blades of grass.",
+        "Multiplying 350000 blades by 7000 square metres gives approximately 2.45 billion blades in total."
+      ],
+      "difficulty": 3,
+      "id": "2026-09-20-01"
+    },
+    {
+      "prompt": "How many grains of table salt are in a standard 750-gram cylindrical container?",
+      "answer": 12500000,
+      "unit": "grains",
+      "category": "food",
+      "reasoning": [
+        "A standard teaspoon of table salt weighs about 6 grams and contains roughly 100000 individual grains.",
+        "Dividing 750 grams by 6 grams per teaspoon gives 125 teaspoons of salt in the container.",
+        "Multiplying 125 teaspoons by 100000 grains per teaspoon results in about 12.5 million grains."
+      ],
+      "difficulty": 2,
+      "id": "2026-09-20-02"
+    },
+    {
+      "prompt": "How many total kilometres do all the commercial aircraft currently airborne worldwide travel in one hour?",
+      "answer": 9000000,
+      "unit": "kilometres",
+      "category": "transport",
+      "reasoning": [
+        "At any given peak hour, there are roughly 10000 commercial planes airborne globally.",
+        "The average cruising speed of a commercial airliner is about 900 kilometres per hour.",
+        "Multiplying 10000 planes by 900 kilometres yields 9 million kilometres flown in an hour."
+      ],
+      "difficulty": 3,
+      "id": "2026-09-20-03"
+    }
+  ]
+}
