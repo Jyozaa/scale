@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-09-21",
+  "gameNumber": 83,
+  "generatedAt": "2026-09-21T04:35:50.232Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many piano keys are pressed in total during a complete performance of the standard 88-key piano repertoire over a lifetime of professional practice?",
+      "answer": 12000000,
+      "unit": "keystrokes",
+      "category": "music",
+      "reasoning": [
+        "A professional pianist practises for about 3 hours every day.",
+        "Playing at an average rate of 300 notes per minute yields roughly 54000 keystrokes per day.",
+        "Over 40 years of active professional performance, this accumulates to roughly 12 million keystrokes."
+      ],
+      "difficulty": 3,
+      "id": "2026-09-21-01"
+    },
+    {
+      "prompt": "How many individual kernels of corn are harvested globally in a single year?",
+      "answer": 700000000000000,
+      "unit": "kernels",
+      "category": "agriculture",
+      "reasoning": [
+        "Global annual corn production is roughly 1.2 billion metric tons.",
+        "A single metric ton of corn contains about 600000 individual kernels.",
+        "Multiplying total production by the number of kernels per ton gives about 700 trillion kernels."
+      ],
+      "difficulty": 3,
+      "id": "2026-09-21-02"
+    },
+    {
+      "prompt": "How many individual bricks are used in the construction of the Great Pyramid of Giza?",
+      "answer": 2300000,
+      "unit": "blocks",
+      "category": "architecture",
+      "reasoning": [
+        "The Great Pyramid has a volume of approximately 2.58 million cubic metres of stone.",
+        "The average limestone block used in its construction has a volume of just over one cubic metre.",
+        "Dividing the total volume by the average block size yields about 2.3 million individual stone blocks."
+      ],
+      "difficulty": 2,
+      "id": "2026-09-21-03"
+    }
+  ]
+}
