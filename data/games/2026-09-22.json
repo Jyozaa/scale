@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-09-22",
+  "gameNumber": 84,
+  "generatedAt": "2026-09-22T04:31:32.879Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total litres of milk are produced globally in a single year?",
+      "answer": 900000000000,
+      "unit": "litres",
+      "category": "food",
+      "reasoning": [
+        "There are roughly 270 million dairy cows in the world.",
+        "An average dairy cow produces about 3,300 litres of milk per year.",
+        "Multiplying the number of cows by the average annual yield gives approximately 900 billion litres."
+      ],
+      "difficulty": 2,
+      "id": "2026-09-22-01"
+    },
+    {
+      "prompt": "How many individual paper pages are in all the books borrowed from public libraries across the United States in a single year?",
+      "answer": 600000000000,
+      "unit": "pages",
+      "category": "infrastructure",
+      "reasoning": [
+        "Public libraries in the US handle roughly 2 billion book checkouts per year.",
+        "The average library book has about 300 pages.",
+        "Multiplying the number of checkouts by the average page count gives roughly 600 billion pages."
+      ],
+      "difficulty": 3,
+      "id": "2026-09-22-02"
+    },
+    {
+      "prompt": "How many individual stamps are sold by national postal services worldwide in a single year?",
+      "answer": 100000000000,
+      "unit": "stamps",
+      "category": "everyday life",
+      "reasoning": [
+        "There are about 8 billion people on Earth, and postal systems still handle billions of letters and packages annually.",
+        "Assuming an average of about 12 postal items or stamp purchases per person globally each year.",
+        "Multiplying 8 billion people by 12 gives roughly 100 billion stamps."
+      ],
+      "difficulty": 2,
+      "id": "2026-09-22-03"
+    }
+  ]
+}
