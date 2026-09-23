@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "date": "2026-09-23",
+  "gameNumber": 85,
+  "generatedAt": "2026-09-23T04:28:13.227Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total litres of water flow over Niagara Falls in a single hour?",
+      "answer": 31104000000,
+      "unit": "litres",
+      "category": "nature",
+      "reasoning": [
+        "Niagara Falls has an average flow rate of about 2400 cubic metres per second",
+        "One cubic metre is equal to 1000 litres, giving 2,400,000 litres per second",
+        "There are 3600 seconds in an hour",
+        "Multiplying the flow per second by the number of seconds in an hour yields approximately 31,104,000,000 litres"
+      ],
+      "difficulty": 2,
+      "id": "2026-09-23-01"
+    },
+    {
+      "prompt": "How many total kilometres do all active passenger cars in the United States travel collectively in a single day?",
+      "answer": 10000000000,
+      "unit": "kilometres",
+      "category": "transport",
+      "reasoning": [
+        "There are roughly 250 million passenger cars in the United States",
+        "On average, each car drives about 40 kilometres per day",
+        "Multiplying 250 million cars by 40 kilometres gives 10,000,000,000 kilometres",
+        "This provides the total collective distance traveled in a day"
+      ],
+      "difficulty": 3,
+      "id": "2026-09-23-02"
+    },
+    {
+      "prompt": "How many total individual keys are pressed across all desktop and laptop keyboards manufactured globally in a single year?",
+      "answer": 30000000000,
+      "unit": "keys",
+      "category": "technology",
+      "reasoning": [
+        "About 300 million personal computers and laptops are manufactured each year",
+        "Each device keyboard features roughly 100 individual keys",
+        "Multiplying 300 million devices by 100 keys gives 30 billion physical key components",
+        "This estimates the total number of keys produced globally in a year"
+      ],
+      "difficulty": 2,
+      "id": "2026-09-23-03"
+    }
+  ]
+}
