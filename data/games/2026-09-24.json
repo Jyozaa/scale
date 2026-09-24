@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "date": "2026-09-24",
+  "gameNumber": 86,
+  "generatedAt": "2026-09-24T04:25:39.308Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total hours do all domestic cats in the United States spend sleeping collectively in a single day?",
+      "answer": 900000000,
+      "unit": "hours",
+      "category": "animals",
+      "reasoning": [
+        "Estimate the pet cat population in the United States at around 60 million.",
+        "Assume the average cat sleeps about 15 hours per day.",
+        "Multiply 60 million cats by 15 hours to get 900 million total collective hours."
+      ],
+      "difficulty": 2,
+      "id": "2026-09-24-01"
+    },
+    {
+      "prompt": "How many individual roof tiles are used to cover the standard pitched roofs of all residential houses in Australia?",
+      "answer": 15000000000,
+      "unit": "tiles",
+      "category": "infrastructure",
+      "reasoning": [
+        "Estimate the number of detached residential houses in Australia to be about 6 million.",
+        "Assume an average roof surface area of 200 square metres per house, resulting in 1.2 billion square metres total.",
+        "Assume each square metre of tiled roofing requires about 12 to 15 individual tiles, yielding roughly 15 billion tiles in total."
+      ],
+      "difficulty": 3,
+      "id": "2026-09-24-02"
+    },
+    {
+      "prompt": "How many total individual drops of water fall from all domestic kitchen faucets left dripping at a slow rate globally in a single day?",
+      "answer": 144000000000,
+      "unit": "drops",
+      "category": "everyday life",
+      "reasoning": [
+        "Estimate that a small fraction of the 2 billion households worldwide have a slowly dripping faucet, say 10 million faucets.",
+        "A slow drip typically releases about 10 drops per minute.",
+        "Calculate the drops per day per faucet: 10 drops per minute times 60 minutes times 24 hours equals 14,400 drops per day.",
+        "Multiply 10 million dripping faucets by 14,400 drops to arrive at approximately 144 billion drops daily."
+      ],
+      "difficulty": 2,
+      "id": "2026-09-24-03"
+    }
+  ]
+}
