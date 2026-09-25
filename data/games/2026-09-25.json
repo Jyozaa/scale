@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "date": "2026-09-25",
+  "gameNumber": 87,
+  "generatedAt": "2026-09-25T04:36:21.698Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total kilograms of food do all captive giant pandas in zoos worldwide consume in a single year?",
+      "answer": 4599000,
+      "unit": "kilograms",
+      "category": "nature",
+      "reasoning": [
+        "There are approximately 700 giant pandas in captivity globally.",
+        "An adult giant panda eats about 18 kilograms of bamboo and fresh food per day.",
+        "700 pandas multiplied by 18 kilograms per day equals 12600 kilograms consumed daily.",
+        "12600 kilograms per day multiplied by 365 days gives an annual total of about 4599000 kilograms."
+      ],
+      "difficulty": 2,
+      "id": "2026-09-25-01"
+    },
+    {
+      "prompt": "How many total litres of water are contained within all swimming pools at private residential homes across Australia?",
+      "answer": 150000000000,
+      "unit": "litres",
+      "category": "infrastructure",
+      "reasoning": [
+        "There are roughly 1.5 million residential swimming pools in Australia.",
+        "An average backyard swimming pool holds about 100000 litres of water.",
+        "Multiplying 1.5 million pools by an average capacity of 100000 litres per pool results in the total volume."
+      ],
+      "difficulty": 3,
+      "id": "2026-09-25-02"
+    },
+    {
+      "prompt": "How many total individual pages are contained within all passport booklets issued to citizens of Canada currently in active circulation?",
+      "answer": 864000000,
+      "unit": "pages",
+      "category": "everyday life",
+      "reasoning": [
+        "There are approximately 24 million valid Canadian passports in circulation at any given time.",
+        "A standard Canadian passport booklet contains 36 pages.",
+        "Multiplying 24 million passports by 36 pages per passport gives the total number of pages in circulation."
+      ],
+      "difficulty": 2,
+      "id": "2026-09-25-03"
+    }
+  ]
+}
