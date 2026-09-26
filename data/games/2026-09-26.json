@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "date": "2026-09-26",
+  "gameNumber": 88,
+  "generatedAt": "2026-09-26T04:40:17.075Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total kilograms of honey are produced by all managed honeybee colonies in the European Union in a single year?",
+      "answer": 200000000,
+      "unit": "kilograms",
+      "category": "nature",
+      "reasoning": [
+        "There are roughly 15 million managed beehives in the European Union.",
+        "An average beehive yields about 15 kilograms of harvestable honey per year.",
+        "Multiplying 15 million hives by 15 kilograms gives roughly 225 million kilograms.",
+        "Accounting for varying regional yields brings the total to approximately 200 million kilograms."
+      ],
+      "difficulty": 2,
+      "id": "2026-09-26-01"
+    },
+    {
+      "prompt": "How many total individual piano keys are manufactured worldwide in a single year?",
+      "answer": 4400000,
+      "unit": "keys",
+      "category": "manufacturing",
+      "reasoning": [
+        "Around 50,000 acoustic and digital pianos with standard keyboards are produced globally each year.",
+        "Each standard piano has 88 individual keys.",
+        "Multiplying 50,000 pianos by 88 keys yields 4.4 million keys in total."
+      ],
+      "difficulty": 3,
+      "id": "2026-09-26-02"
+    },
+    {
+      "prompt": "How many total kilometres do all commercial cargo freight trains in the United States travel collectively in a single day?",
+      "answer": 2500000,
+      "unit": "kilometres",
+      "category": "transport",
+      "reasoning": [
+        "The United States freight rail network operates thousands of active train journeys daily.",
+        "A typical long-haul freight train travels an average of about 500 kilometres per day.",
+        "Multiplying roughly 5,000 active daily train runs by 500 kilometres gives 2.5 million kilometres."
+      ],
+      "difficulty": 2,
+      "id": "2026-09-26-03"
+    }
+  ]
+}
