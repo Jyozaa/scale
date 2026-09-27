@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-09-27",
+  "gameNumber": 89,
+  "generatedAt": "2026-09-27T05:00:32.089Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total hours of original video content are stored on professional cinema movie reels for all feature films released globally in a single year?",
+      "answer": 450000,
+      "unit": "hours",
+      "category": "entertainment",
+      "reasoning": [
+        "Around 6,000 feature films are released worldwide each year across various languages and countries.",
+        "The average runtime of a feature film is about 1.5 to 2 hours, meaning roughly 10,000 hours of unique theatrical content.",
+        "Accounting for multiple reels, archival backup master prints, and distribution copies made for thousands of screens globally, total hours of film prints reach about 450,000 hours."
+      ],
+      "difficulty": 3,
+      "id": "2026-09-27-01"
+    },
+    {
+      "prompt": "How many total grams of sea salt are produced annually by all commercial salt evaporation ponds operating in Australia?",
+      "answer": 12000000000,
+      "unit": "grams",
+      "category": "industry",
+      "reasoning": [
+        "Australia produces approximately 12 million tonnes of salt per year primarily through solar evaporation.",
+        "One tonne is equal to one million grams.",
+        "Multiplying 12 million tonnes by 1,000,000 grams per tonne yields 12 billion grams."
+      ],
+      "difficulty": 2,
+      "id": "2026-09-27-02"
+    },
+    {
+      "prompt": "How many total individual petals are there across all flowers blooming simultaneously in a typical large botanical garden during peak spring season?",
+      "answer": 50000000,
+      "unit": "petals",
+      "category": "nature",
+      "reasoning": [
+        "A large botanical garden might contain around 500,000 individual flowering plants in peak bloom.",
+        "Each plant, whether a flower bed annual, shrub, or bulb, averages about 100 individual petals across its blooms.",
+        "Multiplying 500,000 plants by 100 petals per plant gives 50 million petals."
+      ],
+      "difficulty": 1,
+      "id": "2026-09-27-03"
+    }
+  ]
+}
