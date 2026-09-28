@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-09-28",
+  "gameNumber": 90,
+  "generatedAt": "2026-09-28T05:01:59.217Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total sheets of standard A4 paper are consumed by all legal firms in the United Kingdom in a single year?",
+      "answer": 1500000000,
+      "unit": "sheets",
+      "category": "business and infrastructure",
+      "reasoning": [
+        "Estimate there are roughly 100000 practicing lawyers in the UK.",
+        "Assume an average lawyer or legal assistant goes through about 50 sheets of paper per working day.",
+        "Multiply by 250 working days per year to get 12.5 million sheets per lawyer, scaling to 1.5 billion total sheets."
+      ],
+      "difficulty": 2,
+      "id": "2026-09-28-01"
+    },
+    {
+      "prompt": "How many total individual grains of sand are contained within a standard large commercial sandbox measuring 2 metres by 2 metres with a depth of 50 centimetres?",
+      "answer": 4000000000,
+      "unit": "grains",
+      "category": "nature and materials",
+      "reasoning": [
+        "Calculate the volume of the sandbox as 2m x 2m x 0.5m, which equals 2 cubic metres or 2000000 cubic centimetres.",
+        "Estimate that one cubic centimetre of fine sand contains roughly 2000 individual grains.",
+        "Multiply 2000000 cubic centimetres by 2000 grains per cubic centimetre to yield 4 billion grains."
+      ],
+      "difficulty": 3,
+      "id": "2026-09-28-02"
+    },
+    {
+      "prompt": "How many total hours do all domestic pet dogs in Canada spend playing with toys collectively in a single year?",
+      "answer": 730000000,
+      "unit": "hours",
+      "category": "everyday life",
+      "reasoning": [
+        "Estimate there are roughly 8 million pet dogs in Canada.",
+        "Assume the average dog spends about 25 minutes or roughly 0.4 hours actively playing with toys each day.",
+        "Multiply 8 million dogs by 0.4 hours per day to get 3.2 million hours daily, then multiply by 365 days to reach approximately 1.16 billion hours, adjusted down for puppies and seniors to 730 million hours."
+      ],
+      "difficulty": 2,
+      "id": "2026-09-28-03"
+    }
+  ]
+}
