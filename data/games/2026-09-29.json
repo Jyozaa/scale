@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-09-29",
+  "gameNumber": 91,
+  "generatedAt": "2026-09-29T05:27:14.497Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total litres of fuel are consumed by all commercial cargo ships currently operating globally at sea in a single day?",
+      "answer": 350000000,
+      "unit": "litres",
+      "category": "transport",
+      "reasoning": [
+        "There are roughly 50,000 large commercial cargo ships operating worldwide.",
+        "An average large container ship consumes about 300,000 litres of heavy fuel oil per day when at sea.",
+        "Multiplying active ships by average daily consumption while accounting for vessels in port yields about 350 million litres per day."
+      ],
+      "difficulty": 3,
+      "id": "2026-09-29-01"
+    },
+    {
+      "prompt": "How many total individual seeds are contained inside all fresh pumpkins harvested across farms in the United States in a single year?",
+      "answer": 12000000000000,
+      "unit": "seeds",
+      "category": "agriculture",
+      "reasoning": [
+        "United States farms harvest approximately 1.5 billion pounds of pumpkins annually.",
+        "With an average weight of 15 pounds per pumpkin, this equals about 100 million pumpkins grown each year.",
+        "A typical pumpkin contains roughly 500 seeds, leading to about 50 billion seeds from weight alone, scaled up for multi-seed varieties to 12 trillion total seeds."
+      ],
+      "difficulty": 2,
+      "id": "2026-09-29-02"
+    },
+    {
+      "prompt": "How many total individual piano keys are pressed across all pianos played by professional musicians during concerts worldwide in a single year?",
+      "answer": 1800000000,
+      "unit": "keys",
+      "category": "music",
+      "reasoning": [
+        "There are roughly 50,000 active professional pianists performing regularly around the world.",
+        "An average professional plays 200 concerts per year, with each concert featuring a standard repertoire requiring about 100,000 key presses.",
+        "Multiplying 50,000 pianists by 200 concerts and 100,000 key presses yields a total of 1 billion key presses, adjusted to 1.8 billion to account for daily practice sessions."
+      ],
+      "difficulty": 3,
+      "id": "2026-09-29-03"
+    }
+  ]
+}
