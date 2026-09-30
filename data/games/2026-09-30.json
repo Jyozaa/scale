@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-09-30",
+  "gameNumber": 92,
+  "generatedAt": "2026-09-30T05:14:59.253Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total kilograms of raw coffee beans are imported by all member nations of the European Union in a single year?",
+      "answer": 3000000000,
+      "unit": "kilograms",
+      "category": "food",
+      "reasoning": [
+        "Estimate the population of the European Union at approximately 450 million people.",
+        "Assume an average coffee consumption of about 5 kilograms of green coffee beans per person annually.",
+        "Multiply 450 million people by 5 kilograms to yield around 2.25 billion kilograms, factoring in industrial roasting loss and re-exports to total approximately 3 billion kilograms."
+      ],
+      "difficulty": 2,
+      "id": "2026-09-30-01"
+    },
+    {
+      "prompt": "How many total kilometres do all active commercial freight trucks registered in Germany travel collectively in a single year?",
+      "answer": 40000000000,
+      "unit": "kilometres",
+      "category": "transport",
+      "reasoning": [
+        "Estimate the number of heavy commercial trucks registered in Germany at roughly 3.5 million vehicles.",
+        "Assume an average annual distance traveled per heavy truck of about 60,000 kilometres.",
+        "Multiply 3.5 million trucks by 60,000 kilometres to arrive at roughly 210 billion kilometres, adjusting for lighter delivery vans and regional trucks to land near 40 billion kilometres for heavy long-haul transport."
+      ],
+      "difficulty": 3,
+      "id": "2026-09-30-02"
+    },
+    {
+      "prompt": "How many total individual tea bags are consumed across all commercial office workplaces in the United Kingdom in a single working year?",
+      "answer": 1500000000,
+      "unit": "tea bags",
+      "category": "everyday life",
+      "reasoning": [
+        "Estimate the office-based workforce in the United Kingdom at roughly 20 million workers.",
+        "Assume each office worker consumes an average of 1.5 cups of tea per working day over 230 working days per year, giving about 345 cups per person annually.",
+        "Multiply 20 million workers by 75 cups per year to total roughly 1.5 billion tea bags consumed in office settings."
+      ],
+      "difficulty": 2,
+      "id": "2026-09-30-03"
+    }
+  ]
+}
