@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-10-01",
+  "gameNumber": 93,
+  "generatedAt": "2026-10-01T05:29:48.535Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total individual red blood cells are present in the circulatory system of an average healthy human adult at any given moment?",
+      "answer": 25000000000000,
+      "unit": "cells",
+      "category": "science",
+      "reasoning": [
+        "An average adult has about 5 litres of blood.",
+        "Each microlitre of blood contains approximately 5 million red blood cells.",
+        "There are 1 million microlitres in a litre, meaning 5 million multiplied by 5 million gives the total count."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-01-01"
+    },
+    {
+      "prompt": "How many total individual bricks are used in the exterior masonry walls of all residential homes in the city of Melbourne, Australia?",
+      "answer": 8000000000,
+      "unit": "bricks",
+      "category": "infrastructure",
+      "reasoning": [
+        "There are approximately 2 million homes in Melbourne, and many are brick veneer.",
+        "A typical brick home uses around 4,000 exterior bricks.",
+        "Multiplying 2 million homes by 4,000 bricks yields 8 billion total bricks."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-01-02"
+    },
+    {
+      "prompt": "How many total individual sesame seeds are baked onto the buns produced by all fast-food hamburger restaurant chains operating within Japan in a single year?",
+      "answer": 60000000000,
+      "unit": "seeds",
+      "category": "food",
+      "reasoning": [
+        "Major fast-food chains in Japan sell about 2 billion hamburger buns annually.",
+        "A typical seeded burger bun features approximately 30 sesame seeds on top.",
+        "Multiplying 2 billion buns by 30 seeds results in 60 billion seeds."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-01-03"
+    }
+  ]
+}
