@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "date": "2026-10-02",
+  "gameNumber": 94,
+  "generatedAt": "2026-10-02T05:17:46.545Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total individual grains of sand are contained within all hourglasses currently used worldwide in a single day?",
+      "answer": 1500000000,
+      "unit": "grains",
+      "category": "everyday life",
+      "reasoning": [
+        "Estimate that there are roughly 1 million hourglasses used actively worldwide for cooking, board games, and decorative timers.",
+        "Assume each hourglass contains about 5,000 individual grains of sand on average.",
+        "Multiply the number of hourglasses by the grains per hourglass to get 5 billion grains per single timer inversion.",
+        "Assume an average hourglass is inverted about 3 times a day, yielding 15 billion grains flipped, though active concurrent use scales down to 1.5 billion grains in motion on a typical day."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-02-01"
+    },
+    {
+      "prompt": "How many total individual teeth are present inside the mouths of all pet dogs living in the United States?",
+      "answer": 2520000000,
+      "unit": "teeth",
+      "category": "animals",
+      "reasoning": [
+        "Estimate the total pet dog population in the United States to be approximately 60 million dogs.",
+        "Recall or deduce that an adult dog has 42 permanent teeth in its full dental formula.",
+        "Multiply the dog population by the number of teeth per dog (60,000,000 multiplied by 42).",
+        "The resulting total calculation yields 2.52 billion individual teeth."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-02-02"
+    },
+    {
+      "prompt": "How many total individual physical paperback books are sold by all retail bookstores across Japan in a single year?",
+      "answer": 350000000,
+      "unit": "books",
+      "category": "publishing",
+      "reasoning": [
+        "Estimate the population of Japan to be roughly 125 million people.",
+        "Assume that the average avid reader in Japan purchases about 3 paperback books or manga tankobon per year, and factor in that roughly one-third of the population actively buys physical paperbacks regularly.",
+        "Multiply the active book-buying population by the annual purchases per person to approximate 350 million physical paperback units sold annually."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-02-03"
+    }
+  ]
+}
