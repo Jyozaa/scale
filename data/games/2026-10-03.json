@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "date": "2026-10-03",
+  "gameNumber": 95,
+  "generatedAt": "2026-10-03T05:00:12.479Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total kilograms of raw apples are harvested across all orchards in New Zealand in a single year?",
+      "answer": 550000000,
+      "unit": "kilograms",
+      "category": "agriculture",
+      "reasoning": [
+        "New Zealand produces around 550 thousand tonnes of apples annually",
+        "One tonne is equal to 1,000 kilograms",
+        "Multiplying 550,000 tonnes by 1,000 gives 550 million kilograms"
+      ],
+      "difficulty": 2,
+      "id": "2026-10-03-01"
+    },
+    {
+      "prompt": "How many total individual standard wooden matches are contained within all matchbooks produced globally by manufacturing companies in a single year?",
+      "answer": 120000000000,
+      "unit": "matches",
+      "category": "manufacturing",
+      "reasoning": [
+        "Estimate that about 15 billion matchbooks or boxes are produced worldwide annually",
+        "Assuming an average of 8 matches per matchbook or box",
+        "15 billion multiplied by 8 yields 120 billion matches"
+      ],
+      "difficulty": 3,
+      "id": "2026-10-03-02"
+    },
+    {
+      "prompt": "How many total minutes do all active commercial freight trains operating across the rail network of India run collectively in a single day?",
+      "answer": 14400000,
+      "unit": "minutes",
+      "category": "transport",
+      "reasoning": [
+        "There are approximately 10,000 freight trains running daily on the Indian Railways network",
+        "Each freight train operates for an average of 24 hours per day",
+        "Converting 24 hours to minutes gives 1,440 minutes per train per day",
+        "Multiplying 10,000 trains by 1,440 minutes results in 14.4 million total minutes"
+      ],
+      "difficulty": 2,
+      "id": "2026-10-03-03"
+    }
+  ]
+}
