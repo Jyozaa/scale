@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-10-04",
+  "gameNumber": 96,
+  "generatedAt": "2026-10-04T05:32:38.262Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total kilograms of raw cocoa beans are imported by all chocolate manufacturing companies in Switzerland in a single year?",
+      "answer": 150000000,
+      "unit": "kilograms",
+      "category": "food",
+      "reasoning": [
+        "Switzerland produces vast amounts of chocolate for global consumption",
+        "An estimated 150,000 tonnes of cocoa beans are imported annually to meet this demand",
+        "Converting tonnes to kilograms yields 150 million kilograms"
+      ],
+      "difficulty": 2,
+      "id": "2026-10-04-01"
+    },
+    {
+      "prompt": "How many total individual piano keys are pressed across all pianos played by students taking formal music examinations in the United Kingdom in a single year?",
+      "answer": 1800000000,
+      "unit": "keys",
+      "category": "education",
+      "reasoning": [
+        "Around 600,000 students take formal practical piano exams each year in the UK",
+        "Each student practices an average of 150 keys per minute during preparation and exams over months",
+        "Multiplying examinees by estimated practice strokes totals about 1.8 billion key presses"
+      ],
+      "difficulty": 3,
+      "id": "2026-10-04-02"
+    },
+    {
+      "prompt": "How many total individual pages of paper are contained within all passport booklets held by active citizens of New Zealand?",
+      "answer": 108000000,
+      "unit": "pages",
+      "category": "government",
+      "reasoning": [
+        "New Zealand has a population of approximately 5 million people, with around 3 million holding valid passports",
+        "A standard New Zealand passport contains roughly 36 pages",
+        "Multiplying total passport holders by pages per booklet yields 108 million pages"
+      ],
+      "difficulty": 2,
+      "id": "2026-10-04-03"
+    }
+  ]
+}
