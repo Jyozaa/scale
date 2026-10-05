@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-10-05",
+  "gameNumber": 97,
+  "generatedAt": "2026-10-05T05:16:10.475Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total individual plastic bottle caps are recycled by all municipal recycling plants in Sweden in a single year?",
+      "answer": 1200000000,
+      "unit": "bottle caps",
+      "category": "infrastructure",
+      "reasoning": [
+        "Sweden has a population of about 10 million people.",
+        "Each person consumes roughly 120 bottled beverages annually.",
+        "Multiplying 10 million people by 120 bottles gives 1.2 billion bottle caps recycled."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-05-01"
+    },
+    {
+      "prompt": "How many total individual stitches are sewn into all professional-grade baseballs manufactured globally in a single year?",
+      "answer": 388800000,
+      "unit": "stitches",
+      "category": "sport",
+      "reasoning": [
+        "There are approximately 3.6 million professional-grade baseballs manufactured worldwide each year.",
+        "Each standard baseball features exactly 108 raised stitches.",
+        "Multiplying 3.6 million baseballs by 108 stitches yields 388.8 million total stitches."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-05-02"
+    },
+    {
+      "prompt": "How many total hours do all domestic pet rabbits kept in households across France spend eating fresh vegetables collectively in a single day?",
+      "answer": 2500000,
+      "unit": "hours",
+      "category": "everyday life",
+      "reasoning": [
+        "France has about 2.5 million pet rabbits in households.",
+        "An average pet rabbit spends roughly 1 hour per day chewing and eating vegetables and hay.",
+        "Multiplying 2.5 million rabbits by 1 hour gives 2.5 million total hours."
+      ],
+      "difficulty": 1,
+      "id": "2026-10-05-03"
+    }
+  ]
+}
