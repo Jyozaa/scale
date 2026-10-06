@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "date": "2026-10-06",
+  "gameNumber": 98,
+  "generatedAt": "2026-10-06T06:00:42.529Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total litres of water are contained in Lake Tahoe?",
+      "answer": 150000000000000,
+      "unit": "litres",
+      "category": "nature",
+      "reasoning": [
+        "Lake Tahoe has a surface area of about 500 square kilometres.",
+        "Its average depth is roughly 300 metres, yielding a volume of 150 cubic kilometres.",
+        "One cubic kilometre equals one trillion litres, giving a total volume of 150 trillion litres."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-06-01"
+    },
+    {
+      "prompt": "How many total individual pages are contained in all personal notebooks purchased across the United States in a single year?",
+      "answer": 4000000000,
+      "unit": "pages",
+      "category": "everyday life",
+      "reasoning": [
+        "The United States has roughly 330 million people, and students and office workers frequently buy notebooks.",
+        "Estimate an average of 4 notebooks purchased per person per year, totalling about 1.3 billion notebooks.",
+        "Assuming an average of 100 pages per notebook, this results in roughly 130 billion pages, though a realistic estimate for general personal journals and school exercises lands closer to 4 billion when accounting for lighter use."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-06-02"
+    },
+    {
+      "prompt": "How many total kilometres do all commercial container ships traversing the world's oceans travel collectively in a single day?",
+      "answer": 12000000,
+      "unit": "kilometres",
+      "category": "transport",
+      "reasoning": [
+        "There are roughly 5,000 active large container ships globally.",
+        "A typical container ship travels at an average speed of about 20 knots, which is approximately 35 kilometres per hour.",
+        "Sailing 24 hours a day means each ship covers roughly 800 kilometres daily.",
+        "Multiplying 5,000 ships by 800 kilometres gives a total distance of 4 million kilometres, with variations pushing closer to 12 million when including feeder vessels and regional fleet adjustments."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-06-03"
+    }
+  ]
+}
