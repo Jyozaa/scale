@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "date": "2026-10-07",
+  "gameNumber": 99,
+  "generatedAt": "2026-10-07T05:35:50.659Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total kilograms of titanium are used in the manufacturing of all commercial aircraft delivered globally by aerospace manufacturers in a single year?",
+      "answer": 25000000,
+      "unit": "kilograms",
+      "category": "aerospace",
+      "reasoning": [
+        "Major aerospace manufacturers deliver approximately 1500 commercial passenger aircraft worldwide per year.",
+        "A large modern wide-body and narrow-body mixed commercial fleet averages about 15 metric tonnes of titanium per airframe.",
+        "Multiplying 1500 aircraft by 15000 kilograms gives 22500000 kilograms, plus additional smaller regional and cargo jets brings the total to roughly 25000000 kilograms."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-07-01"
+    },
+    {
+      "prompt": "How many total individual blades of grass are growing across all manicured lawns at residential homes in the state of California?",
+      "answer": 420000000000000,
+      "unit": "blades",
+      "category": "nature",
+      "reasoning": [
+        "California has roughly 10 million residential homes, and about half of them possess a typical suburban lawn averaging 400 square metres.",
+        "A square metre of healthy manicured residential lawn contains approximately 200000 individual blades of grass.",
+        "Multiplying 5 million lawns by 400 square metres yields 2 billion square metres of total lawn area.",
+        "Multiplying 2 billion square metres by 200000 blades per square metre results in 420000000000000 total blades of grass."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-07-02"
+    },
+    {
+      "prompt": "How many total individual cloves of garlic are harvested by all commercial garlic farms across Spain in a single year?",
+      "answer": 140000000000,
+      "unit": "cloves",
+      "category": "agriculture",
+      "reasoning": [
+        "Spain produces roughly 280000 metric tonnes of garlic annually as one of the world's leading exporters.",
+        "An average kilogram of garlic contains about 40 individual bulbs, and each bulb typically consists of 10 to 12 cloves.",
+        "Multiplying 280000 tonnes by 40 bulbs per kilogram yields 11200000000 bulbs.",
+        "Multiplying 11200000000 bulbs by an average of 12.5 cloves per bulb gives approximately 140000000000 individual cloves."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-07-03"
+    }
+  ]
+}
