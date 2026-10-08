@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "date": "2026-10-08",
+  "gameNumber": 100,
+  "generatedAt": "2026-10-08T05:43:37.759Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total individual sheets of postage stamps are printed by national postal printing facilities across Germany in a single year?",
+      "answer": 250000000,
+      "unit": "sheets",
+      "category": "infrastructure",
+      "reasoning": [
+        "Germany has a population of roughly 84 million people who use mail.",
+        "Assuming each person or household buys a few stamp sheets per year, plus business mail, total sheets printed might be around 250 million."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-08-01"
+    },
+    {
+      "prompt": "How many total individual wooden tongue depressors are used across all hospitals and medical clinics in Canada in a single year?",
+      "answer": 45000000,
+      "unit": "depressors",
+      "category": "health",
+      "reasoning": [
+        "Canada has a population of roughly 38 million people.",
+        "If general practitioners, pediatricians, and emergency rooms use several million per month collectively, the annual total reaches about 45 million."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-08-02"
+    },
+    {
+      "prompt": "How many total individual metal screws are used in the interior framing and fittings of a standard modern commercial cruise ship?",
+      "answer": 1200000,
+      "unit": "screws",
+      "category": "transport",
+      "reasoning": [
+        "A large cruise ship has thousands of cabins, public rooms, and extensive wall panels.",
+        "Each cabin and partition requires numerous fasteners, bringing the interior screw count to over one million."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-08-03"
+    }
+  ]
+}
