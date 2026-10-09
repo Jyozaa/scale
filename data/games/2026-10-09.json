@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-10-09",
+  "gameNumber": 101,
+  "generatedAt": "2026-10-09T05:48:25.011Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total individual piano keys are pressed across all pianos played by professional concert pianists performing live orchestral concertos globally in a single year?",
+      "answer": 15000000,
+      "unit": "keys",
+      "category": "music",
+      "reasoning": [
+        "Estimate there are roughly 1000 professional concert pianists performing with orchestras worldwide.",
+        "Assume each pianist performs about 50 concerts a year, playing roughly 3000 notes per concerto.",
+        "Multiplying 1000 pianists by 50 concerts and 3000 keys gives 150 million, adjusted to 15 million for more conservative concert counts."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-09-01"
+    },
+    {
+      "prompt": "How many total individual plastic drinking straws are used by patrons across all amusement parks operating in the United States in a single year?",
+      "answer": 180000000,
+      "unit": "straws",
+      "category": "entertainment",
+      "reasoning": [
+        "There are approximately 400 major amusement parks in the United States.",
+        "Assume they collectively host roughly 300 million visitor days per year.",
+        "Estimate that about 60 percent of visitors use a single plastic drinking straw, yielding 180 million straws."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-09-02"
+    },
+    {
+      "prompt": "How many total kilometres do all active lighthouse beacon light beams project outward cumulatively if measured over the course of a single night globally?",
+      "answer": 450000000,
+      "unit": "kilometres",
+      "category": "infrastructure",
+      "reasoning": [
+        "Estimate there are about 15000 active lighthouses operating worldwide every night.",
+        "Assume an average visible light beam range of about 30 kilometres.",
+        "Multiplying 15000 lighthouses by a 30-kilometre radius gives 450000 kilometres per sweep, and multiplying across thousands of beam rotations per night results in 450 million cumulative kilometres."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-09-03"
+    }
+  ]
+}
