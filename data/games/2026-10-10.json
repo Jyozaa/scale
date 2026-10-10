@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-10-10",
+  "gameNumber": 102,
+  "generatedAt": "2026-10-10T05:31:29.078Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total individual grains of salt are contained inside a standard one-kilogram cylindrical container of fine table salt?",
+      "answer": 25000000,
+      "unit": "grains",
+      "category": "everyday life",
+      "reasoning": [
+        "A single fine grain of table salt has an approximate mass of about 0.04 milligrams.",
+        "One kilogram equals one million milligrams.",
+        "Dividing one million milligrams by 0.04 milligrams gives about 25 million grains per kilogram."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-10-01"
+    },
+    {
+      "prompt": "How many total individual flower petals are plucked or fallen across all public parks in Paris during the peak autumn cleanup month?",
+      "answer": 450000000,
+      "unit": "petals",
+      "category": "nature",
+      "reasoning": [
+        "Paris has approximately 500 hectares of public green spaces and parks.",
+        "Each square metre of parkland features numerous flowering plants and trees dropping roughly 100 petals during peak seasonal transitions.",
+        "Multiplying the total square metres by the petal density yields around 450 million petals."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-10-02"
+    },
+    {
+      "prompt": "How many total individual drops of water are discharged by a standard kitchen faucet leaking at a rate of one drop every two seconds over the course of a single entire year?",
+      "answer": 15768000,
+      "unit": "drops",
+      "category": "infrastructure",
+      "reasoning": [
+        "A year has 365 days, which equals 525,600 minutes or 31,536,000 seconds.",
+        "A leak rate of one drop every two seconds means half a drop falls per second.",
+        "Multiplying 31,536,000 seconds by 0.5 drops per second gives 15,768,000 total drops."
+      ],
+      "difficulty": 1,
+      "id": "2026-10-10-03"
+    }
+  ]
+}
