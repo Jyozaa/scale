@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-10-11",
+  "gameNumber": 103,
+  "generatedAt": "2026-10-11T05:26:25.976Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total kilometres do all active commercial airplanes in the worldwide civil aviation fleet fly collectively in a single day?",
+      "answer": 80000000,
+      "unit": "kilometres",
+      "category": "transport",
+      "reasoning": [
+        "There are roughly 25,000 commercial aircraft flying globally each day.",
+        "Each aircraft averages about 4 hours of flight time per day at an average cruising speed of 800 kilometres per hour, covering 3,200 kilometres.",
+        "Multiplying 25,000 aircraft by 3,200 kilometres gives a total of 80,000,000 kilometres."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-11-01"
+    },
+    {
+      "prompt": "How many total individual kernels of sweet corn are produced by all corn plants grown across agricultural farms in the United States in a single year?",
+      "answer": 30000000000000,
+      "unit": "kernels",
+      "category": "agriculture",
+      "reasoning": [
+        "The United States harvests roughly 35,000,000 acres of corn annually.",
+        "Each acre typically yields around 30,000 individual corn plants.",
+        "Each mature corn stalk produces one large ear containing approximately 800 individual kernels, resulting in roughly 30 trillion kernels total."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-11-02"
+    },
+    {
+      "prompt": "How many total individual key presses occur across all automatic bank teller machines operating nationwide in Canada in a single year?",
+      "answer": 1200000000,
+      "unit": "presses",
+      "category": "technology",
+      "reasoning": [
+        "There are approximately 60,000 automated bank teller machines operating across Canada.",
+        "Each machine handles an average of roughly 100 customer transactions per day, amounting to 36,500 transactions per machine annually.",
+        "Each banking transaction requires an average of about 5 key presses (PIN entry, withdrawal amounts, receipt choices), yielding a total of roughly 1.2 billion key presses."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-11-03"
+    }
+  ]
+}
