@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "date": "2026-10-12",
+  "gameNumber": 104,
+  "generatedAt": "2026-10-12T05:37:19.469Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "fallback",
+  "questions": [
+    {
+      "id": "2026-10-12-01",
+      "category": "transport",
+      "prompt": "How many bicycles are there in the Netherlands?",
+      "answer": 23000000,
+      "unit": "bicycles",
+      "reasoning": [
+        "The Dutch own more bikes than there are people — about 1.3 per person across 17.5 million residents.",
+        "Cycling truly outnumbers the population."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-10-12-02",
+      "category": "food",
+      "prompt": "How many calories are in a Big Mac?",
+      "answer": 550,
+      "unit": "calories",
+      "reasoning": [
+        "Two patties (~500 kcal of beef), a bun (~150) and sauce plus cheese — minus a little rounding in the official tables.",
+        "A full meal with fries and a drink is roughly double."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-10-12-03",
+      "category": "transport",
+      "prompt": "How many passengers pass through Heathrow Airport each year?",
+      "answer": 80000000,
+      "unit": "passengers",
+      "reasoning": [
+        "Roughly 220,000 a day through its terminals — a mid-sized city taking flight daily.",
+        "It is Europe's busiest airport."
+      ],
+      "difficulty": 2
+    }
+  ]
+}
