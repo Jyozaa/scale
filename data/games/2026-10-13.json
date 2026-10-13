@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "date": "2026-10-13",
+  "gameNumber": 105,
+  "generatedAt": "2026-10-13T06:33:49.697Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many individual grains of rice are contained inside a standard five-kilogram sack of uncooked white basmati rice?",
+      "answer": 250000,
+      "unit": "grains",
+      "category": "food",
+      "reasoning": [
+        "A single grain of dry long-grain rice weighs approximately 0.02 grams.",
+        "A five-kilogram sack contains 5,000,000 milligrams, which is 5,000 grams.",
+        "Dividing 5,000 grams by 0.02 grams per grain yields approximately 250,000 individual grains."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-13-01"
+    },
+    {
+      "prompt": "How many total cumulative kilometres do all commercial airliners flying in Earth's airspace travel collectively during a single twenty-four-hour day?",
+      "answer": 120000000,
+      "unit": "kilometres",
+      "category": "transport",
+      "reasoning": [
+        "There are roughly 100,000 commercial flights per day worldwide.",
+        "Each flight travels an average distance of about 1,200 kilometres.",
+        "Multiplying 100,000 flights by 1,200 kilometres gives 120,000,000 total kilometres flown daily."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-13-02"
+    },
+    {
+      "prompt": "How many total individual episodes of rainfall droplets hit the ground across the entire land area of London during a moderately rainy twenty-four-hour day?",
+      "answer": 40000000000000,
+      "unit": "drops",
+      "category": "nature",
+      "reasoning": [
+        "London covers an area of approximately 1,500 square kilometres, or 1.5 billion square metres.",
+        "A moderate day of rain might deposit about 10 millimetres of water depth, equalling 15 million cubic metres of water.",
+        "A single typical rain droplet has a volume of roughly 0.000000375 cubic metres.",
+        "Dividing the total volume of fallen water by the volume of a single droplet yields roughly 40 trillion drops."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-13-03"
+    }
+  ]
+}
