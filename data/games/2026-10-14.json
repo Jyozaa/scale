@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "date": "2026-10-14",
+  "gameNumber": 106,
+  "generatedAt": "2026-10-14T04:34:46.136Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total individual steel staples are used in the cardboard packaging of all shipments processed by major shipping hubs in Singapore in a single year?",
+      "answer": 45000000,
+      "unit": "staples",
+      "category": "infrastructure",
+      "reasoning": [
+        "Major shipping hubs in Singapore process roughly 50 million packages annually.",
+        "On average, a standard cardboard shipping box is secured with about 1 string or multiple metal staples, averaging around 1 staple per box.",
+        "Multiplying the 50 million packages by an average of 0.9 staples per box yields approximately 45 million staples."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-14-01"
+    },
+    {
+      "prompt": "How many total grams of organic matter are consumed by all pet ferrets kept in households across Sweden in a single year?",
+      "answer": 18250000,
+      "unit": "grams",
+      "category": "nature",
+      "reasoning": [
+        "There are approximately 10000 pet ferrets kept in homes across Sweden.",
+        "An average adult ferret eats about 50 grams of specialized food and meat daily.",
+        "Multiplying 10,000 ferrets by 50 grams per day gives 500,000 grams consumed daily nationwide.",
+        "Multiplying the daily total by 365 days yields 18,250,000 grams in a single year."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-14-02"
+    },
+    {
+      "prompt": "How many total individual wool threads are used in the weaving of all official academic graduation gowns manufactured for universities in Australia in a single year?",
+      "answer": 360000000,
+      "unit": "threads",
+      "category": "education",
+      "reasoning": [
+        "Australian universities award degrees to about 300,000 graduating students each year who require gowns.",
+        "A standard academic graduation gown contains roughly 1,200 vertical and horizontal structural woven wool threads forming the fabric matrix.",
+        "Multiplying 300,000 gowns by 1,200 threads per gown results in a total of 360,000,000 threads."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-14-03"
+    }
+  ]
+}
