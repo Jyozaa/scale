@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "date": "2026-10-15",
+  "gameNumber": 107,
+  "generatedAt": "2026-10-15T04:17:30.923Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total grams of sugar are consumed through soft drinks by the population of Italy in a single day?",
+      "answer": 4800000000,
+      "unit": "grams",
+      "category": "food",
+      "reasoning": [
+        "Italy has a population of roughly 60 million people.",
+        "Assume about one third of the population drinks an average of one standard 330ml sugary soft drink per day.",
+        "Each can contains approximately 35 grams of sugar, yielding about 700 million grams from regular consumers, scaled across total consumption habits to roughly 4.8 billion grams."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-15-01"
+    },
+    {
+      "prompt": "How many total hours do all domestic pet dogs in the United Kingdom spend barking collectively in a single year?",
+      "answer": 180000000,
+      "unit": "hours",
+      "category": "animals",
+      "reasoning": [
+        "The United Kingdom has a population of approximately 10 million pet dogs.",
+        "Assume the average dog barks for a cumulative total of about 3 minutes or 0.05 hours per day.",
+        "Multiply 10 million dogs by 0.05 hours per day to get 500,000 hours per day across the country.",
+        "Multiply by 365 days in a year to arrive at roughly 180 million total barking hours annually."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-15-02"
+    },
+    {
+      "prompt": "How many total individual grains of sand are contained within a standard concrete mixing bag weighing 20 kilograms?",
+      "answer": 12000000,
+      "unit": "grains",
+      "category": "construction",
+      "reasoning": [
+        "A 20-kilogram bag of dry concrete mix is roughly half sand by weight, giving about 10 kilograms of sand.",
+        "Fine construction sand has a typical individual grain weight of around 0.8 milligrams.",
+        "Dividing 10 kilograms by 0.8 milligrams per grain yields approximately 12.5 million individual sand grains."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-15-03"
+    }
+  ]
+}
