@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "date": "2026-10-16",
+  "gameNumber": 108,
+  "generatedAt": "2026-10-16T04:12:58.165Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total individual kernels of popcorn are popped across all commercial movie theaters in the United States during a single standard weekend?",
+      "answer": 800000000,
+      "unit": "kernels",
+      "category": "food",
+      "reasoning": [
+        "Estimate that there are about 40000 movie theater screens operating across the United States.",
+        "Assume each screen serves an average of 50 buckets of popcorn per weekend day, or 100 buckets per weekend.",
+        "Calculate that each large bucket contains roughly 200 individual popped kernels.",
+        "Multiply total buckets by kernels per bucket to arrive at 800 million kernels."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-16-01"
+    },
+    {
+      "prompt": "How many total individual pages of paper are consumed by all print newspapers published daily across Japan in a single week?",
+      "answer": 350000000,
+      "unit": "pages",
+      "category": "everyday life",
+      "reasoning": [
+        "Estimate that daily nationwide newspaper circulation in Japan totals about 2.5 million copies.",
+        "Assume each daily edition averages 20 physical pages of news print.",
+        "Multiply daily copies by pages per copy to get 50 million pages printed each single day.",
+        "Multiply the daily total by 7 days in a week to reach 350 million pages weekly."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-16-02"
+    },
+    {
+      "prompt": "How many total individual bricks are used in the exterior walls of a standard 20-story commercial office skyscraper?",
+      "answer": 400000,
+      "unit": "bricks",
+      "category": "infrastructure",
+      "reasoning": [
+        "Estimate the perimeter of a 20-story office building to be about 160 meters, with a height of 80 meters, yielding a total exterior surface area of roughly 12800 square meters.",
+        "Deduct approximately 40 percent of that surface area to account for large commercial glass windows, leaving about 7680 square meters of brick facade.",
+        "Calculate that a standard brick covers roughly 50 square centimeters of surface area, meaning one square meter requires about 50 bricks.",
+        "Multiply the net facade area by the number of bricks per square meter to reach approximately 384000 bricks, rounded to 400000."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-16-03"
+    }
+  ]
+}
