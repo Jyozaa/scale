@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-10-17",
+  "gameNumber": 109,
+  "generatedAt": "2026-10-17T04:03:12.863Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total individual wooden toothpicks are consumed across all commercial restaurants operating in Canada in a single year?",
+      "answer": 450000000,
+      "unit": "toothpicks",
+      "category": "everyday life",
+      "reasoning": [
+        "Canada has approximately 100,000 restaurants serving meals daily",
+        "Each restaurant might use an average of 15 boxes of toothpicks per year, with 300 toothpicks per box",
+        "Multiplying 100,000 restaurants by 4,500 toothpicks yields roughly 450 million toothpicks consumed annually"
+      ],
+      "difficulty": 2,
+      "id": "2026-10-17-01"
+    },
+    {
+      "prompt": "How many total individual pinecones are produced by all mature coniferous pine trees growing across the forested land area of Sweden in a single autumn season?",
+      "answer": 12000000000,
+      "unit": "pinecones",
+      "category": "nature",
+      "reasoning": [
+        "Sweden has about 23 billion trees, roughly half of which are mature pine and spruce trees bearing cones",
+        "An average mature coniferous tree yields a few hundred pinecones in a typical mast year",
+        "Estimating an average of 1,000 cone-bearing trees per hectare across millions of forested hectares gives around 12 billion pinecones"
+      ],
+      "difficulty": 3,
+      "id": "2026-10-17-02"
+    },
+    {
+      "prompt": "How many total individual plastic credit and debit cards are manufactured and issued by all financial institutions in Australia in a single year?",
+      "answer": 22000000,
+      "unit": "cards",
+      "category": "finance",
+      "reasoning": [
+        "Australia has a population of about 26 million people holding multiple banking products",
+        "Standard bank cards expire and are reissued every three to four years, requiring around 7 million replacements annually",
+        "Adding new accounts, secondary cards, and business cards brings the yearly total production to approximately 22 million cards"
+      ],
+      "difficulty": 2,
+      "id": "2026-10-17-03"
+    }
+  ]
+}
