@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-10-18",
+  "gameNumber": 110,
+  "generatedAt": "2026-10-18T04:10:36.318Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total active satellites are currently orbiting the Earth?",
+      "answer": 9000,
+      "unit": "satellites",
+      "category": "space",
+      "reasoning": [
+        "Major commercial constellations like Starlink have added thousands of spacecraft in recent years",
+        "Government space agencies, scientific missions, and communication networks contribute several thousand more",
+        "Summing operational low Earth orbit, medium Earth orbit, and geostationary satellites yields approximately 9000"
+      ],
+      "difficulty": 2,
+      "id": "2026-10-18-01"
+    },
+    {
+      "prompt": "How many total kilograms of carrots are produced globally in a single year?",
+      "answer": 40000000000,
+      "unit": "kilograms",
+      "category": "food",
+      "reasoning": [
+        "Global annual carrot and turnip production is roughly 40 million tonnes",
+        "One tonne equals 1000 kilograms",
+        "Multiplying 40 million tonnes by 1000 gives 40 billion kilograms"
+      ],
+      "difficulty": 3,
+      "id": "2026-10-18-02"
+    },
+    {
+      "prompt": "How many total metres are traversed by a standard marathon race?",
+      "answer": 42195,
+      "unit": "metres",
+      "category": "sport",
+      "reasoning": [
+        "A standard marathon distance is officially defined as 42.195 kilometres",
+        "One kilometre equals 1000 metres",
+        "Multiplying 42.195 by 1000 gives 42195 metres"
+      ],
+      "difficulty": 1,
+      "id": "2026-10-18-03"
+    }
+  ]
+}
