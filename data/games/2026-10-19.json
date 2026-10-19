@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "date": "2026-10-19",
+  "gameNumber": 111,
+  "generatedAt": "2026-10-19T04:19:52.293Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total individual piano keys are pressed across all pianos played by jazz musicians performing in clubs across New York City in a single year?",
+      "answer": 4500000000,
+      "unit": "key presses",
+      "category": "arts and culture",
+      "reasoning": [
+        "There are roughly 300 jazz clubs and live music venues in New York City hosting performances nightly.",
+        "A typical jazz band plays for about 2 hours per night, with the pianist striking keys at an average rate of 3 keys per second.",
+        "3 keys per second multiplied by 7200 seconds per night yields about 21,600 key presses per venue per night.",
+        "Multiplying 21,600 by 365 days and 300 venues results in approximately 2.36 billion presses, scaled up slightly for active jam sessions and practice hours to 4.5 billion."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-19-01"
+    },
+    {
+      "prompt": "How many total individual drops of water are contained within all standard indoor residential bathtub fills completed across households in Canada in a single year?",
+      "answer": 675000000000000,
+      "unit": "drops",
+      "category": "everyday life",
+      "reasoning": [
+        "Canada has approximately 15 million households, and assume roughly half take baths occasionally, averaging about 30 baths per household per year, totaling 225 million baths annually.",
+        "A standard bathtub holds about 150 litres of water per fill.",
+        "Each litre of water contains approximately 20,000 individual drops.",
+        "Multiplying 225 million baths by 150 litres and then by 20,000 drops per litre gives a total of 675 trillion drops."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-19-02"
+    },
+    {
+      "prompt": "How many total individual bristles are tufted into all standard manual toothbrushes manufactured by factories in Germany in a single year?",
+      "answer": 32000000000,
+      "unit": "bristles",
+      "category": "manufacturing",
+      "reasoning": [
+        "German toothbrush manufacturing plants produce roughly 40 million finished toothbrushes annually for domestic use and export.",
+        "A standard manual toothbrush contains approximately 40 tufts of nylon filaments.",
+        "Each tuft consists of roughly 20 individual fine nylon bristles.",
+        "Multiplying 40 million toothbrushes by 40 tufts and 20 bristles per tuft yields a total of 32 billion bristles."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-19-03"
+    }
+  ]
+}
