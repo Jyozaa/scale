@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "date": "2026-10-20",
+  "gameNumber": 112,
+  "generatedAt": "2026-10-20T04:31:03.865Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total litres of water are contained in all residential swimming pools across the United States combined?",
+      "answer": 600000000000,
+      "unit": "litres",
+      "category": "infrastructure",
+      "reasoning": [
+        "There are approximately 10 million residential swimming pools in the United States.",
+        "An average residential swimming pool holds about 60,000 litres of water.",
+        "Multiplying 10 million pools by 60,000 litres gives 600,000,000,000 litres."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-20-01"
+    },
+    {
+      "prompt": "How many total kilograms of fresh apples are consumed across the entire population of France in a single year?",
+      "answer": 650000000,
+      "unit": "kilograms",
+      "category": "food",
+      "reasoning": [
+        "The population of France is roughly 65 million people.",
+        "An average person in France consumes about 10 kilograms of fresh apples per year.",
+        "Multiplying 65 million people by 10 kilograms per person yields 650,000,000 kilograms."
+      ],
+      "difficulty": 1,
+      "id": "2026-10-20-02"
+    },
+    {
+      "prompt": "How many total kilometres do all active commercial freight trains operating on the national rail network of Canada travel collectively in a single year?",
+      "answer": 120000000,
+      "unit": "kilometres",
+      "category": "transport",
+      "reasoning": [
+        "There are roughly 1,000 active freight train sets operating daily across Canada's rail networks.",
+        "Each freight train travels an average of 350 kilometres per day.",
+        "Multiplying 1,000 trains by 350 kilometres per day gives 350,000 kilometres daily.",
+        "Multiplying the daily total by 365 days in a year results in approximately 127,750,000 kilometres, rounded to 120,000,000."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-20-03"
+    }
+  ]
+}
