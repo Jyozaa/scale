@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "date": "2026-10-21",
+  "gameNumber": 113,
+  "generatedAt": "2026-10-21T04:22:54.586Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "fallback",
+  "questions": [
+    {
+      "id": "2026-10-21-01",
+      "category": "people",
+      "prompt": "How many bones are in the adult human body?",
+      "answer": 206,
+      "unit": "bones",
+      "reasoning": [
+        "Babies start with ~300, but many fuse as we grow.",
+        "Half of the adult total sits in the hands and feet alone."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-10-21-02",
+      "category": "people",
+      "prompt": "How many steps does the average adult take in a day?",
+      "answer": 7500,
+      "unit": "steps",
+      "reasoning": [
+        "A brisk 30-minute walk is about 3,500 steps.",
+        "Add pottering around home, work and errands and most studies land between 5,000 and 8,000."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-10-21-03",
+      "category": "geography",
+      "prompt": "How many countries are there in Africa?",
+      "answer": 54,
+      "unit": "countries",
+      "reasoning": [
+        "Africa has 54 fully recognised states — more than any other continent.",
+        "The world total is 195, so Africa holds over a quarter of them."
+      ],
+      "difficulty": 2
+    }
+  ]
+}
