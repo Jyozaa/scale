@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "date": "2026-10-22",
+  "gameNumber": 114,
+  "generatedAt": "2026-10-22T04:21:44.565Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total litres of milk are produced across dairy farms in New Zealand in a single year?",
+      "answer": 21000000000,
+      "unit": "litres",
+      "category": "agriculture",
+      "reasoning": [
+        "New Zealand has approximately 5 million dairy cows.",
+        "Each dairy cow produces an average of about 4,200 litres of milk per year.",
+        "Multiplying 5 million cows by 4,200 litres gives about 21 billion litres in total."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-22-01"
+    },
+    {
+      "prompt": "How many total individual keys are pressed across all ATM machines operating nationwide in Canada in a single year?",
+      "answer": 900000000,
+      "unit": "keys",
+      "category": "technology",
+      "reasoning": [
+        "There are roughly 60,000 automated teller machines across Canada.",
+        "Each machine processes an average of about 40 customer transactions per day, totalling around 15,000 transactions per year per machine.",
+        "A typical banking transaction on an ATM involves pressing about 10 numeric and functional keys.",
+        "Multiplying 60,000 machines by 15,000 transactions and 10 key presses yields 900 million key presses."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-22-02"
+    },
+    {
+      "prompt": "How many total hours do all domestic pet cats kept in households across Germany spend grooming themselves collectively in a single year?",
+      "answer": 5475000000,
+      "unit": "hours",
+      "category": "animals",
+      "reasoning": [
+        "There are approximately 15 million pet cats living in households across Germany.",
+        "An average cat spends about one hour per day grooming its fur.",
+        "Multiplying 15 million cats by 1 hour gives 15 million hours per day across the country.",
+        "Multiplying 15 million daily hours by 365 days results in roughly 5.475 billion hours per year."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-22-03"
+    }
+  ]
+}
