@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "date": "2026-10-23",
+  "gameNumber": 115,
+  "generatedAt": "2026-10-23T04:26:12.464Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total kilograms of raw potatoes are harvested across all farms in Ireland in a single year?",
+      "answer": 350000000,
+      "unit": "kilograms",
+      "category": "agriculture",
+      "reasoning": [
+        "Ireland harvests potatoes across roughly 85000 hectares of land",
+        "Average potato yield is about 4000 kilograms per hectare",
+        "Multiplying 85000 hectares by 4000 kilograms gives approximately 340 million kilograms",
+        "Refined closer to standard annual production reports at 350 million kilograms"
+      ],
+      "difficulty": 2,
+      "id": "2026-10-23-01"
+    },
+    {
+      "prompt": "How many total individual plastic bottles are sold across all convenience stores in South Korea in a single year?",
+      "answer": 4500000000,
+      "unit": "bottles",
+      "category": "commerce",
+      "reasoning": [
+        "South Korea has roughly 50000 convenience stores operating nationwide",
+        "Each store sells an average of about 250 bottled drinks per day",
+        "Multiplying 50000 stores by 250 bottles gives 12.5 million daily sales",
+        "Multiplying daily sales by 365 days yields approximately 4.5 billion bottles per year"
+      ],
+      "difficulty": 3,
+      "id": "2026-10-23-02"
+    },
+    {
+      "prompt": "How many total hours do all domestic pet cats kept in households across Sweden sleep collectively in a single day?",
+      "answer": 20800000,
+      "unit": "hours",
+      "category": "animals",
+      "reasoning": [
+        "The pet cat population in Sweden is estimated at approximately 1.3 million cats",
+        "An average domestic cat spends about 16 hours a day sleeping",
+        "Multiplying 1.3 million cats by 16 hours results in 20.8 million collective hours",
+        "Accounting for age variations and differing sleep schedules to confirm the total"
+      ],
+      "difficulty": 1,
+      "id": "2026-10-23-03"
+    }
+  ]
+}
