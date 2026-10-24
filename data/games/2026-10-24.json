@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-10-24",
+  "gameNumber": 116,
+  "generatedAt": "2026-10-24T04:16:51.651Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total kilograms of raw beef are consumed across the entire population of Argentina in a single year?",
+      "answer": 1800000000,
+      "unit": "kilograms",
+      "category": "food",
+      "reasoning": [
+        "Argentina has a population of roughly 45 million people.",
+        "Annual per capita beef consumption in Argentina is famously high, averaging about 40 kilograms per person.",
+        "Multiplying 45 million people by 40 kilograms per person yields 1,800,000,000 kilograms."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-24-01"
+    },
+    {
+      "prompt": "How many total minutes do all active commercial freight trucks registered in Germany run on the road collectively in a single day?",
+      "answer": 720000000,
+      "unit": "minutes",
+      "category": "transport",
+      "reasoning": [
+        "Germany has approximately 3 million registered commercial freight trucks.",
+        "On an average working day, a typical long-haul or delivery truck operates for about 4 hours, which is 240 minutes.",
+        "Multiplying 3 million trucks by 240 minutes gives 720 million active operating minutes per day."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-24-02"
+    },
+    {
+      "prompt": "How many total individual pages of paper are contained within all bound textbooks used by students across all public high schools in Canada in a single school year?",
+      "answer": 3500000000,
+      "unit": "pages",
+      "category": "education",
+      "reasoning": [
+        "Canada has roughly 2 million public high school students.",
+        "Each student uses an average of 5 primary textbooks during a school year.",
+        "A typical high school textbook averages about 350 pages, leading to roughly 1,750 pages per student, which multiplied by 2 million students yields 3.5 billion pages."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-24-03"
+    }
+  ]
+}
