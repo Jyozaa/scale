@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-10-25",
+  "gameNumber": 117,
+  "generatedAt": "2026-10-25T04:19:59.542Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total kilograms of raw bananas are imported into Japan in a single year?",
+      "answer": 1000000000,
+      "unit": "kilograms",
+      "category": "food",
+      "reasoning": [
+        "Japan has a population of approximately 125 million people",
+        "Each person consumes about 8 kilograms of bananas annually",
+        "Multiplying population by annual per capita consumption gives roughly one billion kilograms"
+      ],
+      "difficulty": 2,
+      "id": "2026-10-25-01"
+    },
+    {
+      "prompt": "How many total individual piano keys are pressed across all pianos played by students taking grade-level piano exams administered by the Royal Conservatory of Music in Canada in a single year?",
+      "answer": 500000000,
+      "unit": "keys",
+      "category": "arts",
+      "reasoning": [
+        "About 100000 students take piano examinations annually in Canada",
+        "Each student practices for an average of 150 days per year",
+        "During practice, a student plays about 5000 notes per session, yielding roughly 500 million total key presses"
+      ],
+      "difficulty": 3,
+      "id": "2026-10-25-02"
+    },
+    {
+      "prompt": "How many total individual domestic pet cats kept in households across Sweden climb scratching posts or furniture in a single day?",
+      "answer": 1200000,
+      "unit": "cats",
+      "category": "nature",
+      "reasoning": [
+        "Sweden has a domestic cat population of about 1.5 million animals",
+        "Eighty percent of these pet cats are active indoor or outdoor cats that interact with scratching surfaces daily",
+        "Multiplying the pet cat population by the active participation fraction yields 1.2 million cats"
+      ],
+      "difficulty": 1,
+      "id": "2026-10-25-03"
+    }
+  ]
+}
