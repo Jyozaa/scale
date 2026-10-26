@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "date": "2026-10-26",
+  "gameNumber": 118,
+  "generatedAt": "2026-10-26T04:23:47.223Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "fallback",
+  "questions": [
+    {
+      "id": "2026-10-26-01",
+      "category": "geography",
+      "prompt": "How high is Mount Everest, in metres?",
+      "answer": 8849,
+      "unit": "metres",
+      "reasoning": [
+        "Commercial airliners cruise at ~11,000 m, and Everest reaches about four-fifths of that.",
+        "The 2020 survey fixed it at 8,848.86 m."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-10-26-02",
+      "category": "space",
+      "prompt": "How many stars are in the Milky Way?",
+      "answer": 200000000000,
+      "unit": "stars",
+      "reasoning": [
+        "Astronomers weigh the galaxy by its light and motion, then divide by a typical star's mass.",
+        "Estimates range from 100 to 400 billion."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-10-26-03",
+      "category": "food",
+      "prompt": "How many cups of tea are drunk in Britain each day?",
+      "answer": 100000000,
+      "unit": "cups",
+      "reasoning": [
+        "About 67 million residents averaging well over a cup each — builders' brews, afternoon teas and everything between.",
+        "The kettle rarely rests."
+      ],
+      "difficulty": 2
+    }
+  ]
+}
