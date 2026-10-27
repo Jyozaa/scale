@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "date": "2026-10-27",
+  "gameNumber": 119,
+  "generatedAt": "2026-10-27T04:42:43.940Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "fallback",
+  "questions": [
+    {
+      "id": "2026-10-27-01",
+      "category": "space",
+      "prompt": "How many stars are in the Milky Way?",
+      "answer": 200000000000,
+      "unit": "stars",
+      "reasoning": [
+        "Astronomers weigh the galaxy by its light and motion, then divide by a typical star's mass.",
+        "Estimates range from 100 to 400 billion."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-10-27-02",
+      "category": "nature",
+      "prompt": "How many trees are on Earth?",
+      "answer": 3000000000000,
+      "unit": "trees",
+      "reasoning": [
+        "Satellite surveys plus ground plots suggest ~400 trees per person across 8 billion people.",
+        "Forests still outnumber us enormously."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-10-27-03",
+      "category": "people",
+      "prompt": "How many bones are in the adult human body?",
+      "answer": 206,
+      "unit": "bones",
+      "reasoning": [
+        "Babies start with ~300, but many fuse as we grow.",
+        "Half of the adult total sits in the hands and feet alone."
+      ],
+      "difficulty": 2
+    }
+  ]
+}
