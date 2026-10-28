@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "date": "2026-10-28",
+  "gameNumber": 120,
+  "generatedAt": "2026-10-28T05:16:36.477Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "fallback",
+  "questions": [
+    {
+      "id": "2026-10-28-01",
+      "category": "geography",
+      "prompt": "How many seconds are in a year?",
+      "answer": 31536000,
+      "unit": "seconds",
+      "reasoning": [
+        "60 × 60 × 24 × 365 = 31,536,000.",
+        "A handy trick: π × 10⁷ ≈ 31.4 million gets you within half a percent."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-10-28-02",
+      "category": "transport",
+      "prompt": "How many commercial flights take off around the world each day?",
+      "answer": 100000,
+      "unit": "flights",
+      "reasoning": [
+        "The busiest airports handle ~1,500 departures a day each, and there are thousands of airports.",
+        "Trackers typically count 90,000–110,000 daily flights."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-10-28-03",
+      "category": "transport",
+      "prompt": "How many kilometres of railway track are there in Great Britain?",
+      "answer": 16000,
+      "unit": "kilometres",
+      "reasoning": [
+        "Britain is ~1,000 km end to end.",
+        "A dense web of main lines plus branches multiplies that length roughly fifteen-fold."
+      ],
+      "difficulty": 2
+    }
+  ]
+}
