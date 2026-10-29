@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-10-29",
+  "gameNumber": 121,
+  "generatedAt": "2026-10-29T05:27:35.782Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total kilograms of raw onions are harvested globally in a single year?",
+      "answer": 105000000000,
+      "unit": "kilograms",
+      "category": "agriculture",
+      "reasoning": [
+        "Global onion production is estimated at roughly 105 million metric tonnes annually",
+        "Converting tonnes to kilograms multiplies the value by one thousand",
+        "This gives a total of approximately 105 billion kilograms produced worldwide"
+      ],
+      "difficulty": 2,
+      "id": "2026-10-29-01"
+    },
+    {
+      "prompt": "How many total metres are traversed by a cargo ship crossing the Pacific Ocean along a typical major port route?",
+      "answer": 9000000,
+      "unit": "metres",
+      "category": "transport",
+      "reasoning": [
+        "A typical trans-Pacific shipping route between Asia and North America spans about 9000 kilometres",
+        "Converting kilometres to metres requires multiplying by one thousand",
+        "This results in approximately 9 million metres per voyage"
+      ],
+      "difficulty": 1,
+      "id": "2026-10-29-02"
+    },
+    {
+      "prompt": "How many total individual sheets of paper are bound inside all telephone directories distributed across major metropolitan areas in Japan in a single year?",
+      "answer": 250000000,
+      "unit": "sheets",
+      "category": "publishing",
+      "reasoning": [
+        "Major Japanese cities print around 5 million directories annually",
+        "Each comprehensive directory contains an average of about 50 pages or sheets of thin paper",
+        "Multiplying 5 million directories by 50 sheets yields 250 million total sheets"
+      ],
+      "difficulty": 3,
+      "id": "2026-10-29-03"
+    }
+  ]
+}
