@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "date": "2026-10-30",
+  "gameNumber": 122,
+  "generatedAt": "2026-10-30T05:27:23.960Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "fallback",
+  "questions": [
+    {
+      "id": "2026-10-30-01",
+      "category": "geography",
+      "prompt": "How many islands does Greece have?",
+      "answer": 6000,
+      "unit": "islands",
+      "reasoning": [
+        "Only ~200 are inhabited, but cartographers count every rocky islet.",
+        "The official tally falls somewhere between 1,200 and 6,000 depending on definition — six thousand is the widely cited figure."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-10-30-02",
+      "category": "transport",
+      "prompt": "How many kilometres of railway track are there in Great Britain?",
+      "answer": 16000,
+      "unit": "kilometres",
+      "reasoning": [
+        "Britain is ~1,000 km end to end.",
+        "A dense web of main lines plus branches multiplies that length roughly fifteen-fold."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-10-30-03",
+      "category": "geography",
+      "prompt": "How high is Mount Everest, in metres?",
+      "answer": 8849,
+      "unit": "metres",
+      "reasoning": [
+        "Commercial airliners cruise at ~11,000 m, and Everest reaches about four-fifths of that.",
+        "The 2020 survey fixed it at 8,848.86 m."
+      ],
+      "difficulty": 2
+    }
+  ]
+}
