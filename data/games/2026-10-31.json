@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "date": "2026-10-31",
+  "gameNumber": 123,
+  "generatedAt": "2026-10-31T05:12:43.194Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total litres of water are contained in an Olympic-sized swimming pool?",
+      "answer": 2500000,
+      "unit": "litres",
+      "category": "infrastructure",
+      "reasoning": [
+        "An Olympic swimming pool has standard dimensions of 50 metres long by 25 metres wide.",
+        "The standard required depth is at least 2 metres.",
+        "Multiplying length, width, and depth gives 50 times 25 times 2, which equals 2500 cubic metres.",
+        "Since one cubic metre contains 1000 litres, multiplying 2500 by 1000 gives 2500000 litres."
+      ],
+      "difficulty": 1,
+      "id": "2026-10-31-01"
+    },
+    {
+      "prompt": "How many total kilograms of food does an adult African elephant consume in a single year?",
+      "answer": 55000,
+      "unit": "kilograms",
+      "category": "nature",
+      "reasoning": [
+        "An adult African elephant eats roughly 150 kilograms of vegetation per day.",
+        "To find the yearly total, multiply 150 kilograms by 365 days.",
+        "150 times 300 is 45000, and 150 times 65 is 9750, giving a total of approximately 54750 kilograms, rounded to 55000."
+      ],
+      "difficulty": 2,
+      "id": "2026-10-31-02"
+    },
+    {
+      "prompt": "How many total individual pages are contained in a standard telephone directory for a large metropolitan city?",
+      "answer": 1200,
+      "unit": "pages",
+      "category": "everyday life",
+      "reasoning": [
+        "A large metropolitan telephone directory typically covers residential and business listings.",
+        "The book has two main sections, each roughly 500 to 600 pages thick.",
+        "Adding the sections together gives a total of approximately 1200 pages."
+      ],
+      "difficulty": 3,
+      "id": "2026-10-31-03"
+    }
+  ]
+}
