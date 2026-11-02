@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "date": "2026-11-02",
+  "gameNumber": 125,
+  "generatedAt": "2026-11-02T05:40:32.979Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "fallback",
+  "questions": [
+    {
+      "id": "2026-11-02-01",
+      "category": "people",
+      "prompt": "How many times does a human heart beat in a day?",
+      "answer": 100000,
+      "unit": "beats",
+      "reasoning": [
+        "About 70 beats a minute, times 60 minutes, times 24 hours: 70 × 60 × 24 ≈ 100,800.",
+        "Your heart beats around a hundred thousand times before each sunrise."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-02-02",
+      "category": "geography",
+      "prompt": "How long is the Great Wall of China, in kilometres?",
+      "answer": 21000,
+      "unit": "kilometres",
+      "reasoning": [
+        "All branches and trenches measured together stretch halfway around the Earth.",
+        "Walking it end to end would take well over a year."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-02-03",
+      "category": "geography",
+      "prompt": "How many countries are there in Africa?",
+      "answer": 54,
+      "unit": "countries",
+      "reasoning": [
+        "Africa has 54 fully recognised states — more than any other continent.",
+        "The world total is 195, so Africa holds over a quarter of them."
+      ],
+      "difficulty": 2
+    }
+  ]
+}
