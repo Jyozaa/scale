@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "date": "2026-11-03",
+  "gameNumber": 126,
+  "generatedAt": "2026-11-03T06:20:40.802Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "fallback",
+  "questions": [
+    {
+      "id": "2026-11-03-01",
+      "category": "geography",
+      "prompt": "How many seconds are in a year?",
+      "answer": 31536000,
+      "unit": "seconds",
+      "reasoning": [
+        "60 × 60 × 24 × 365 = 31,536,000.",
+        "A handy trick: π × 10⁷ ≈ 31.4 million gets you within half a percent."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-03-02",
+      "category": "food",
+      "prompt": "How many calories are in a Big Mac?",
+      "answer": 550,
+      "unit": "calories",
+      "reasoning": [
+        "Two patties (~500 kcal of beef), a bun (~150) and sauce plus cheese — minus a little rounding in the official tables.",
+        "A full meal with fries and a drink is roughly double."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-03-03",
+      "category": "food",
+      "prompt": "How many cups of coffee are drunk worldwide each day?",
+      "answer": 2000000000,
+      "unit": "cups",
+      "reasoning": [
+        "Roughly a billion coffee drinkers on Earth, averaging about two cups each.",
+        "It is one of the most consumed drinks on the planet."
+      ],
+      "difficulty": 2
+    }
+  ]
+}
