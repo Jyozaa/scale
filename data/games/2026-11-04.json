@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "date": "2026-11-04",
+  "gameNumber": 127,
+  "generatedAt": "2026-11-04T05:55:37.858Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total litres of water are consumed by all residential households in Canada in a single year?",
+      "answer": 3500000000000,
+      "unit": "litres",
+      "category": "infrastructure",
+      "reasoning": [
+        "Canada has a population of approximately 40 million people",
+        "Each person uses roughly 250 litres of water per day at home",
+        "40 million people times 250 litres per day equals 10 billion litres per day",
+        "10 billion litres per day times 365 days yields approximately 3.5 trillion litres per year"
+      ],
+      "difficulty": 2,
+      "id": "2026-11-04-01"
+    },
+    {
+      "prompt": "How many total individual sheets of paper are consumed by all elementary school students in public education across Australia in a single school year?",
+      "answer": 1200000000,
+      "unit": "sheets",
+      "category": "everyday life",
+      "reasoning": [
+        "Australia has about 2 million elementary school students",
+        "Each student uses an average of 5 sheets of paper per school day",
+        "There are roughly 120 school days in a standard academic semester or term block multiplied across the year, yielding about 600 sheets per student annually",
+        "2 million students multiplied by 600 sheets per year equals 1.2 billion total sheets"
+      ],
+      "difficulty": 2,
+      "id": "2026-11-04-02"
+    },
+    {
+      "prompt": "How many total metres are traversed by the Earth in its orbit around the Sun in a single standard year?",
+      "answer": 940000000000000,
+      "unit": "metres",
+      "category": "space",
+      "reasoning": [
+        "The average distance from the Earth to the Sun is approximately 150 million kilometres",
+        "The radius of the Earth's orbit is 150 million kilometres, so the orbital circumference is 2 pi times that radius, which is roughly 940 million kilometres",
+        "Convert kilometres to metres by multiplying by 1000",
+        "940 million kilometres multiplied by 1000 gives 940 trillion metres"
+      ],
+      "difficulty": 3,
+      "id": "2026-11-04-03"
+    }
+  ]
+}
