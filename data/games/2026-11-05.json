@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "date": "2026-11-05",
+  "gameNumber": 128,
+  "generatedAt": "2026-11-05T06:18:00.837Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "fallback",
+  "questions": [
+    {
+      "id": "2026-11-05-01",
+      "category": "food",
+      "prompt": "How many cups of tea are drunk in Britain each day?",
+      "answer": 100000000,
+      "unit": "cups",
+      "reasoning": [
+        "About 67 million residents averaging well over a cup each — builders' brews, afternoon teas and everything between.",
+        "The kettle rarely rests."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-05-02",
+      "category": "geography",
+      "prompt": "How many public library outlets are there in the United States?",
+      "answer": 16000,
+      "unit": "libraries",
+      "reasoning": [
+        "There are ~3,000 counties in the US, each with a handful of branches on average.",
+        "The official count of outlets is a little over 16,000."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-05-03",
+      "category": "geography",
+      "prompt": "How many islands does Greece have?",
+      "answer": 6000,
+      "unit": "islands",
+      "reasoning": [
+        "Only ~200 are inhabited, but cartographers count every rocky islet.",
+        "The official tally falls somewhere between 1,200 and 6,000 depending on definition — six thousand is the widely cited figure."
+      ],
+      "difficulty": 2
+    }
+  ]
+}
