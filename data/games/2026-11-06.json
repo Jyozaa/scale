@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-11-06",
+  "gameNumber": 129,
+  "generatedAt": "2026-11-06T06:12:40.243Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total litres of water are contained within all active municipal water towers in the United States?",
+      "answer": 1500000000,
+      "unit": "litres",
+      "category": "infrastructure",
+      "reasoning": [
+        "There are roughly 50000 municipal water towers or elevated storage tanks across the United States.",
+        "An average municipal water tower holds about 30000 litres of water.",
+        "Multiplying 50000 towers by 30000 litres per tower yields 1.5 billion litres."
+      ],
+      "difficulty": 2,
+      "id": "2026-11-06-01"
+    },
+    {
+      "prompt": "How many total individual letters are typed on all smartphone virtual keyboards globally in a single day?",
+      "answer": 5000000000000,
+      "unit": "letters",
+      "category": "technology",
+      "reasoning": [
+        "There are approximately 5 billion smartphone users worldwide active on a daily basis.",
+        "Each active user types an average of 1000 letters per day across messaging, email, and social apps.",
+        "Multiplying 5 billion users by 1000 letters per day results in 5 trillion letters."
+      ],
+      "difficulty": 2,
+      "id": "2026-11-06-02"
+    },
+    {
+      "prompt": "How many total kilograms of fresh honey are produced by all managed beehives across the continent of Africa in a single year?",
+      "answer": 160000000,
+      "unit": "kilograms",
+      "category": "nature",
+      "reasoning": [
+        "Africa has an estimated 16 million managed beehives maintained by local beekeepers.",
+        "Each managed hive produces an average of 10 kilograms of harvestable honey per year.",
+        "Multiplying 16 million hives by 10 kilograms gives 160 million kilograms."
+      ],
+      "difficulty": 3,
+      "id": "2026-11-06-03"
+    }
+  ]
+}
