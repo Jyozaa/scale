@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "date": "2026-11-07",
+  "gameNumber": 130,
+  "generatedAt": "2026-11-07T05:40:52.574Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "fallback",
+  "questions": [
+    {
+      "id": "2026-11-07-01",
+      "category": "geography",
+      "prompt": "How many public library outlets are there in the United States?",
+      "answer": 16000,
+      "unit": "libraries",
+      "reasoning": [
+        "There are ~3,000 counties in the US, each with a handful of branches on average.",
+        "The official count of outlets is a little over 16,000."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-07-02",
+      "category": "geography",
+      "prompt": "How long is the Great Wall of China, in kilometres?",
+      "answer": 21000,
+      "unit": "kilometres",
+      "reasoning": [
+        "All branches and trenches measured together stretch halfway around the Earth.",
+        "Walking it end to end would take well over a year."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-07-03",
+      "category": "geography",
+      "prompt": "How high is Mount Everest, in metres?",
+      "answer": 8849,
+      "unit": "metres",
+      "reasoning": [
+        "Commercial airliners cruise at ~11,000 m, and Everest reaches about four-fifths of that.",
+        "The 2020 survey fixed it at 8,848.86 m."
+      ],
+      "difficulty": 2
+    }
+  ]
+}
