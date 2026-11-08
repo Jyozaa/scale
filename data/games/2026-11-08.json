@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "date": "2026-11-08",
+  "gameNumber": 131,
+  "generatedAt": "2026-11-08T05:43:08.224Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "fallback",
+  "questions": [
+    {
+      "id": "2026-11-08-01",
+      "category": "geography",
+      "prompt": "How many people live in the Tokyo metropolitan area?",
+      "answer": 37000000,
+      "unit": "people",
+      "reasoning": [
+        "Greater Tokyo holds about a third of Japan's population.",
+        "It is the largest urban area on Earth — more people than all of Canada."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-08-02",
+      "category": "geography",
+      "prompt": "How many islands does Greece have?",
+      "answer": 6000,
+      "unit": "islands",
+      "reasoning": [
+        "Only ~200 are inhabited, but cartographers count every rocky islet.",
+        "The official tally falls somewhere between 1,200 and 6,000 depending on definition — six thousand is the widely cited figure."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-08-03",
+      "category": "people",
+      "prompt": "How many steps does the average adult take in a day?",
+      "answer": 7500,
+      "unit": "steps",
+      "reasoning": [
+        "A brisk 30-minute walk is about 3,500 steps.",
+        "Add pottering around home, work and errands and most studies land between 5,000 and 8,000."
+      ],
+      "difficulty": 2
+    }
+  ]
+}
