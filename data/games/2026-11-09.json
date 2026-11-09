@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "date": "2026-11-09",
+  "gameNumber": 132,
+  "generatedAt": "2026-11-09T05:53:28.762Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "fallback",
+  "questions": [
+    {
+      "id": "2026-11-09-01",
+      "category": "nature",
+      "prompt": "How many litres of water does one person use at home each day?",
+      "answer": 140,
+      "unit": "litres",
+      "reasoning": [
+        "One shower is ~60 litres and a few toilet flushes add ~30 more.",
+        "Cooking, laundry and taps make up the rest — roughly one full bathtub."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-09-02",
+      "category": "geography",
+      "prompt": "How many countries are there in Africa?",
+      "answer": 54,
+      "unit": "countries",
+      "reasoning": [
+        "Africa has 54 fully recognised states — more than any other continent.",
+        "The world total is 195, so Africa holds over a quarter of them."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-09-03",
+      "category": "transport",
+      "prompt": "How many commercial flights take off around the world each day?",
+      "answer": 100000,
+      "unit": "flights",
+      "reasoning": [
+        "The busiest airports handle ~1,500 departures a day each, and there are thousands of airports.",
+        "Trackers typically count 90,000–110,000 daily flights."
+      ],
+      "difficulty": 2
+    }
+  ]
+}
