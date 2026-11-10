@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-11-10",
+  "gameNumber": 133,
+  "generatedAt": "2026-11-10T06:58:24.756Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total kilograms of fresh blueberries are harvested across commercial farms in the state of Maine in a single year?",
+      "answer": 45000000,
+      "unit": "kilograms",
+      "category": "agriculture",
+      "reasoning": [
+        "Maine produces a significant portion of the wild blueberries in North America, roughly 45 to 50 million kilograms annually.",
+        "Harvest yields fluctuate based on weather and pollination, but baseline commercial output remains around 45 million kilograms.",
+        "Multiplying the typical regional harvest acreage by average yield per hectare confirms this scale."
+      ],
+      "difficulty": 2,
+      "id": "2026-11-10-01"
+    },
+    {
+      "prompt": "How many total individual physical cards are currently held as active driver's licenses by licensed drivers in the province of Ontario?",
+      "answer": 10500000,
+      "unit": "cards",
+      "category": "infrastructure",
+      "reasoning": [
+        "Ontario has approximately 10.5 million licensed drivers holding active photo cards.",
+        "Each standard physical driver's license functions as a single identification card.",
+        "Therefore, multiplying the number of active drivers by one card per person yields about 10.5 million cards."
+      ],
+      "difficulty": 1,
+      "id": "2026-11-10-02"
+    },
+    {
+      "prompt": "How many total individual keys are pressed across all desktop computer keyboards used by office workers in corporate skyscrapers located in Manhattan during a single standard five-day work week?",
+      "answer": 2500000000,
+      "unit": "keys",
+      "category": "technology",
+      "reasoning": [
+        "Manhattan houses roughly 2 million office workers across various corporate towers.",
+        "An average office worker types about 10,000 keystrokes per day, totaling 50,000 keystrokes over a five-day work week.",
+        "Multiplying 2 million workers by 50,000 keystrokes each results in 100 billion keystrokes, adjusted down for active typing time to a conservative 2.5 billion fully engaged key presses."
+      ],
+      "difficulty": 3,
+      "id": "2026-11-10-03"
+    }
+  ]
+}
