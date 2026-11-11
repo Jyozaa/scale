@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-11-11",
+  "gameNumber": 134,
+  "generatedAt": "2026-11-11T05:49:35.510Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total litres of water are contained within all active municipal water distribution reservoirs in Australia?",
+      "answer": 4500000000,
+      "unit": "litres",
+      "category": "infrastructure",
+      "reasoning": [
+        "Australia has a population of approximately 26 million people living mostly in urban water networks.",
+        "Average daily household and municipal water consumption is roughly 200 litres per person, requiring substantial storage buffers.",
+        "Major municipal reservoirs and service tanks collectively store roughly one week to several weeks of total urban demand, equating to about 4.5 billion litres."
+      ],
+      "difficulty": 2,
+      "id": "2026-11-11-01"
+    },
+    {
+      "prompt": "How many total individual seeds are contained within all fresh watermelons harvested across commercial farms in Spain in a single year?",
+      "answer": 350000000000,
+      "unit": "seeds",
+      "category": "agriculture",
+      "reasoning": [
+        "Spain produces approximately 1.2 million tonnes of watermelons annually.",
+        "An average medium-to-large commercial watermelon weighs about 5 kilograms, resulting in roughly 240 million individual watermelons harvested per year.",
+        "Each typical watermelon contains an estimated 500 to 1,500 seeds inside the pulp, averaging around 1,450 seeds per fruit to yield about 350 billion total seeds."
+      ],
+      "difficulty": 3,
+      "id": "2026-11-11-02"
+    },
+    {
+      "prompt": "How many total individual words are spoken by all air traffic controllers on duty at major commercial airports across the United States during a single standard twenty-four-hour day?",
+      "answer": 12000000,
+      "unit": "words",
+      "category": "technology",
+      "reasoning": [
+        "There are around 500 major commercial airports in the United States with active air traffic control towers operating around the clock.",
+        "Each active controller or sector handles dozens of radio transmissions per hour, speaking at a fast pace of roughly 150 words per minute.",
+        "Multiplying active operational hours, active positions, and continuous dialogue yields a total of approximately 12 million spoken words nationwide per day."
+      ],
+      "difficulty": 3,
+      "id": "2026-11-11-03"
+    }
+  ]
+}
