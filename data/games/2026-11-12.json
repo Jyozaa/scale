@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "date": "2026-11-12",
+  "gameNumber": 135,
+  "generatedAt": "2026-11-12T06:54:52.363Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total kilograms of raw white rice are produced by all agricultural farms across India in a single year?",
+      "answer": 130000000000,
+      "unit": "kilograms",
+      "category": "agriculture",
+      "reasoning": [
+        "India produces roughly 130 million metric tonnes of milled and rough rice annually.",
+        "One metric tonne is equal to 1,000 kilograms.",
+        "Multiplying 130 million tonnes by 1,000 kilograms yields 130 billion kilograms."
+      ],
+      "difficulty": 2,
+      "id": "2026-11-12-01"
+    },
+    {
+      "prompt": "How many total individual pairs of shoes are manufactured by all commercial footwear factories located in Vietnam in a single year?",
+      "answer": 1200000000,
+      "unit": "pairs",
+      "category": "manufacturing",
+      "reasoning": [
+        "Vietnam exports and produces over 1.2 billion pairs of shoes annually as a major global manufacturing hub.",
+        "Domestic consumption adds a minor amount, bringing the yearly total close to 1.2 billion pairs."
+      ],
+      "difficulty": 2,
+      "id": "2026-11-12-02"
+    },
+    {
+      "prompt": "How many total litres of water are contained within all active municipal water supply treatment reservoirs across the country of Brazil?",
+      "answer": 45000000000,
+      "unit": "litres",
+      "category": "infrastructure",
+      "reasoning": [
+        "Brazil has a large population of over 210 million people relying on municipal water systems.",
+        "Average treated storage per capita across large urban and regional treatment plants is roughly 200 litres.",
+        "Multiplying 210 million people by 200 litres gives approximately 42 to 45 billion litres total."
+      ],
+      "difficulty": 3,
+      "id": "2026-11-12-03"
+    }
+  ]
+}
