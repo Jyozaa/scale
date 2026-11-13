@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "date": "2026-11-13",
+  "gameNumber": 136,
+  "generatedAt": "2026-11-13T06:15:50.692Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total individual grains of sand are contained within all standard children's plastic sandpits installed in residential backyards across Australia?",
+      "answer": 12000000000000,
+      "unit": "grains",
+      "category": "everyday life",
+      "reasoning": [
+        "Estimate Australia has about 1 million residential backyards with small children's sandpits.",
+        "Assume each sandpit holds roughly 100 litres of sand, equivalent to 0.1 cubic metres.",
+        "One cubic metre of dry sand contains roughly 120 million individual grains.",
+        "1,000,000 sandpits multiplied by 0.1 cubic metres times 120 million grains equals 12 trillion grains."
+      ],
+      "difficulty": 3,
+      "id": "2026-11-13-01"
+    },
+    {
+      "prompt": "How many total kilograms of raw white button mushrooms are harvested across all commercial indoor mushroom farms in the United Kingdom in a single year?",
+      "answer": 110000000,
+      "unit": "kilograms",
+      "category": "food",
+      "reasoning": [
+        "The population of the United Kingdom is roughly 67 million people.",
+        "Estimate average annual per capita mushroom consumption is about 1.6 kilograms.",
+        "Total domestic consumption and production equate to roughly 110 million kilograms per year."
+      ],
+      "difficulty": 2,
+      "id": "2026-11-13-02"
+    },
+    {
+      "prompt": "How many total individual pages are contained within all bound hardback novels published by major publishing houses in the United States in a single year?",
+      "answer": 135000000000,
+      "unit": "pages",
+      "category": "culture",
+      "reasoning": [
+        "Major U.S. publishers release roughly 30,000 new hardback novel titles annually.",
+        "Assume an average print run of 15,000 copies per title, yielding 450 million individual books printed.",
+        "Assume an average hardback novel contains 300 pages.",
+        "450 million books multiplied by 300 pages equals 135 billion pages printed across all copies."
+      ],
+      "difficulty": 3,
+      "id": "2026-11-13-03"
+    }
+  ]
+}
