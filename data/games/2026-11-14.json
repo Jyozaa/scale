@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-11-14",
+  "gameNumber": 137,
+  "generatedAt": "2026-11-14T05:58:21.490Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total kilograms of raw white cabbage are harvested across all commercial agricultural farms in Poland in a single year?",
+      "answer": 900000000,
+      "unit": "kilograms",
+      "category": "agriculture",
+      "reasoning": [
+        "Poland harvests roughly 1 million tonnes of white cabbage annually",
+        "One tonne is equal to one thousand kilograms",
+        "Multiplying 1 million tonnes by 1000 gives 900 million kilograms accounting for recent yield estimates"
+      ],
+      "difficulty": 2,
+      "id": "2026-11-14-01"
+    },
+    {
+      "prompt": "How many total individual sheets of paper are consumed by all university students enrolled in higher education degree programs across Australia in a single academic year?",
+      "answer": 375000000,
+      "unit": "sheets",
+      "category": "education",
+      "reasoning": [
+        "Australia has approximately 1.5 million university students",
+        "Each student uses an average of 250 sheets of printed or notebook paper per academic year",
+        "Multiplying 1.5 million students by 250 sheets yields 375 million total sheets"
+      ],
+      "difficulty": 1,
+      "id": "2026-11-14-02"
+    },
+    {
+      "prompt": "How many total individual metal paper clips are manufactured by all stationery factories operating in Japan in a single year?",
+      "answer": 4500000000,
+      "unit": "paper clips",
+      "category": "manufacturing",
+      "reasoning": [
+        "Japan has a corporate workforce and student population of roughly 60 million active office and school desk users",
+        "Each person consumes an average of 75 paper clips annually for binding documents",
+        "Multiplying 60 million people by 75 paper clips yields 4.5 billion manufactured units"
+      ],
+      "difficulty": 3,
+      "id": "2026-11-14-03"
+    }
+  ]
+}
