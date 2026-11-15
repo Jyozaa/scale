@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "date": "2026-11-15",
+  "gameNumber": 138,
+  "generatedAt": "2026-11-15T06:00:44.709Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "fallback",
+  "questions": [
+    {
+      "id": "2026-11-15-01",
+      "category": "geography",
+      "prompt": "How high is Mount Everest, in metres?",
+      "answer": 8849,
+      "unit": "metres",
+      "reasoning": [
+        "Commercial airliners cruise at ~11,000 m, and Everest reaches about four-fifths of that.",
+        "The 2020 survey fixed it at 8,848.86 m."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-15-02",
+      "category": "geography",
+      "prompt": "How many people live in the Tokyo metropolitan area?",
+      "answer": 37000000,
+      "unit": "people",
+      "reasoning": [
+        "Greater Tokyo holds about a third of Japan's population.",
+        "It is the largest urban area on Earth — more people than all of Canada."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-15-03",
+      "category": "people",
+      "prompt": "How many steps does the average adult take in a day?",
+      "answer": 7500,
+      "unit": "steps",
+      "reasoning": [
+        "A brisk 30-minute walk is about 3,500 steps.",
+        "Add pottering around home, work and errands and most studies land between 5,000 and 8,000."
+      ],
+      "difficulty": 2
+    }
+  ]
+}
