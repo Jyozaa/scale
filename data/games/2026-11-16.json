@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "date": "2026-11-16",
+  "gameNumber": 139,
+  "generatedAt": "2026-11-16T06:00:21.485Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total kilograms of raw oranges are harvested across all commercial orchards in the state of Florida in a single year?",
+      "answer": 2000000000,
+      "unit": "kilograms",
+      "category": "agriculture",
+      "reasoning": [
+        "Florida produces roughly 50 million boxes of oranges annually.",
+        "Each box of oranges weighs approximately 40 kilograms.",
+        "50 million boxes multiplied by 40 kilograms per box equals 2 billion kilograms."
+      ],
+      "difficulty": 2,
+      "id": "2026-11-16-01"
+    },
+    {
+      "prompt": "How many total individual plastic grocery bags are distributed by all supermarket checkout counters across Australia in a single year?",
+      "answer": 4000000000,
+      "unit": "bags",
+      "category": "retail",
+      "reasoning": [
+        "Australia has a population of approximately 26 million people who visit supermarkets multiple times a week.",
+        "An average shopper uses about 3 lightweight or reusable-equivalent plastic bags per supermarket trip.",
+        "Multiplying weekly visits across the population yields roughly 4 billion bags distributed annually."
+      ],
+      "difficulty": 3,
+      "id": "2026-11-16-02"
+    },
+    {
+      "prompt": "How many total hours do all domestic pet hamsters kept in households across Germany run on exercise wheels collectively in a single year?",
+      "answer": 182500000,
+      "unit": "hours",
+      "category": "pets",
+      "reasoning": [
+        "There are approximately 1 million pet hamsters kept in households throughout Germany.",
+        "Each hamster runs on its exercise wheel for an average of 0.5 hours per day.",
+        "1 million hamsters multiplied by 0.5 hours per day gives 500,000 hours per day.",
+        "500,000 hours per day multiplied by 365 days in a year yields 182.5 million hours."
+      ],
+      "difficulty": 3,
+      "id": "2026-11-16-03"
+    }
+  ]
+}
