@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "date": "2026-11-17",
+  "gameNumber": 140,
+  "generatedAt": "2026-11-17T07:38:46.889Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "fallback",
+  "questions": [
+    {
+      "id": "2026-11-17-01",
+      "category": "geography",
+      "prompt": "How long is the Great Wall of China, in kilometres?",
+      "answer": 21000,
+      "unit": "kilometres",
+      "reasoning": [
+        "All branches and trenches measured together stretch halfway around the Earth.",
+        "Walking it end to end would take well over a year."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-17-02",
+      "category": "people",
+      "prompt": "How many languages are spoken in the world?",
+      "answer": 7000,
+      "unit": "languages",
+      "reasoning": [
+        "Linguists catalogue roughly seven thousand living languages — though a few dozen dominate, and hundreds have fewer than a thousand speakers left."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-17-03",
+      "category": "geography",
+      "prompt": "How many people visit the Eiffel Tower each year?",
+      "answer": 6000000,
+      "unit": "visitors",
+      "reasoning": [
+        "About 16,000 visitors a day on average — fewer in winter, far more in summer.",
+        "Multiply by 365 and you land near six million."
+      ],
+      "difficulty": 2
+    }
+  ]
+}
