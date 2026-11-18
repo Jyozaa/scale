@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-11-18",
+  "gameNumber": 141,
+  "generatedAt": "2026-11-18T07:00:00.910Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total individual grains of rice are contained within a standard 50-kilogram commercial jute sack of uncooked long-grain white rice?",
+      "answer": 2500000,
+      "unit": "grains",
+      "category": "agriculture",
+      "reasoning": [
+        "A single grain of typical long-grain white rice weighs approximately 0.02 grams.",
+        "A 50-kilogram sack contains 50,000 grams of rice.",
+        "Dividing 50,000 grams by 0.02 grams per grain gives 2,500,000 grains."
+      ],
+      "difficulty": 2,
+      "id": "2026-11-18-01"
+    },
+    {
+      "prompt": "How many total individual plastic bricks are contained within a standard commercial master shipping carton holding 100 individual boxed sets of a popular building block toy?",
+      "answer": 60000,
+      "unit": "bricks",
+      "category": "manufacturing",
+      "reasoning": [
+        "A standard boxed toy set of building blocks contains an average of 600 individual plastic bricks.",
+        "A master shipping carton holds 100 of these boxed sets.",
+        "Multiplying 100 boxed sets by 600 bricks per set yields 60,000 bricks."
+      ],
+      "difficulty": 1,
+      "id": "2026-11-18-02"
+    },
+    {
+      "prompt": "How many total individual wooden toothpicks are manufactured by all toothpick production facilities operating within the country of Portugal in a single year?",
+      "answer": 1200000000,
+      "unit": "toothpicks",
+      "category": "industry",
+      "reasoning": [
+        "Portugal has a few specialized timber and wood-products mills that supply domestic and regional markets.",
+        "An average mill produces roughly 300 million toothpicks annually.",
+        "Across 4 major mills operating nationwide, total annual production reaches approximately 1,200,000,000 toothpicks."
+      ],
+      "difficulty": 3,
+      "id": "2026-11-18-03"
+    }
+  ]
+}
