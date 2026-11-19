@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "date": "2026-11-19",
+  "gameNumber": 142,
+  "generatedAt": "2026-11-19T07:00:55.980Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "fallback",
+  "questions": [
+    {
+      "id": "2026-11-19-01",
+      "category": "people",
+      "prompt": "How many kilometres of blood vessels are in the human body?",
+      "answer": 100000,
+      "unit": "kilometres",
+      "reasoning": [
+        "Arteries and veins are only the start — billions of capillaries do most of the length.",
+        "Laid end to end they would circle the Earth more than twice."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-19-02",
+      "category": "nature",
+      "prompt": "How many trees are on Earth?",
+      "answer": 3000000000000,
+      "unit": "trees",
+      "reasoning": [
+        "Satellite surveys plus ground plots suggest ~400 trees per person across 8 billion people.",
+        "Forests still outnumber us enormously."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-19-03",
+      "category": "geography",
+      "prompt": "How many islands does Greece have?",
+      "answer": 6000,
+      "unit": "islands",
+      "reasoning": [
+        "Only ~200 are inhabited, but cartographers count every rocky islet.",
+        "The official tally falls somewhere between 1,200 and 6,000 depending on definition — six thousand is the widely cited figure."
+      ],
+      "difficulty": 2
+    }
+  ]
+}
