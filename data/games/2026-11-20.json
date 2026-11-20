@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-11-20",
+  "gameNumber": 143,
+  "generatedAt": "2026-11-20T06:53:52.590Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total kilograms of raw sweet potatoes are harvested across all commercial agricultural farms in the United States in a single year?",
+      "answer": 1200000000,
+      "unit": "kilograms",
+      "category": "agriculture",
+      "reasoning": [
+        "The United States produces over 1 million metric tons of sweet potatoes annually.",
+        "One metric ton equals 1,000 kilograms, bringing the total harvest into the billions of kilograms.",
+        "Multiplying the estimated annual production of 1.2 million tonnes by 1,000 gives 1,200,000,000 kilograms."
+      ],
+      "difficulty": 2,
+      "id": "2026-11-20-01"
+    },
+    {
+      "prompt": "How many total individual sheets of paper are consumed by all postal delivery workers writing physical delivery notification slips across Canada in a single year?",
+      "answer": 15000000,
+      "unit": "sheets",
+      "category": "everyday life",
+      "reasoning": [
+        "Canada has tens of millions of addresses and millions of items requiring signature or failed delivery notices annually.",
+        "Assume approximately 15 million physical delivery slip booklets or individual notification sheets are printed and used by mail carriers nationwide.",
+        "This averages out to roughly one slip per household or business per year for missed deliveries."
+      ],
+      "difficulty": 3,
+      "id": "2026-11-20-02"
+    },
+    {
+      "prompt": "How many total metres are traversed by all active commercial elevator cars operating in skyscrapers across Manhattan combined in a single standard twelve-hour business day?",
+      "answer": 50000000,
+      "unit": "metres",
+      "category": "infrastructure",
+      "reasoning": [
+        "There are thousands of commercial elevators in Manhattan skyscrapers making hundreds of trips daily.",
+        "An average trip covers roughly 50 metres of vertical distance.",
+        "Multiplying hundreds of thousands of daily trips by 50 metres yields a cumulative total of 50 million metres."
+      ],
+      "difficulty": 3,
+      "id": "2026-11-20-03"
+    }
+  ]
+}
