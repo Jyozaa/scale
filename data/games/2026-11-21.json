@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "date": "2026-11-21",
+  "gameNumber": 144,
+  "generatedAt": "2026-11-21T06:48:31.433Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total kilograms of raw carrots are produced by all commercial vegetable farms across Germany in a single year?",
+      "answer": 600000000,
+      "unit": "kilograms",
+      "category": "agriculture",
+      "reasoning": [
+        "Germany has a population of about 84 million people who consume root vegetables regularly.",
+        "Annual per capita consumption of carrots in central Europe is roughly 7 kilograms.",
+        "Total national consumption equals 84 million people multiplied by 7 kilograms, yielding approximately 600,000,000 kilograms."
+      ],
+      "difficulty": 2,
+      "id": "2026-11-21-01"
+    },
+    {
+      "prompt": "How many total individual wooden toothpicks are manufactured by all toothpick factories operating in Sweden in a single year?",
+      "answer": 45000000,
+      "unit": "toothpicks",
+      "category": "manufacturing",
+      "reasoning": [
+        "Sweden has a population of around 10 million people.",
+        "Restaurants, households, and catering services use a modest average of 5 toothpicks per person per year.",
+        "Multiplying 10 million people by 5 toothpicks yields roughly 50 million, adjusted down slightly for local production share to 45 million."
+      ],
+      "difficulty": 2,
+      "id": "2026-11-21-02"
+    },
+    {
+      "prompt": "How many total litres of fuel are consumed by all commercial passenger buses operating in urban transit networks across France in a single year?",
+      "answer": 700000000,
+      "unit": "litres",
+      "category": "transport",
+      "reasoning": [
+        "France has a fleet of roughly 50,000 urban and regional public transit buses.",
+        "Each bus travels an average of 40,000 kilometres per year on scheduled routes.",
+        "With a typical fuel efficiency of about 35 litres per 100 kilometres, 40,000 kilometres consumes 14,000 litres per bus.",
+        "Multiplying 50,000 buses by 14,000 litres gives a total annual consumption of 700 million litres."
+      ],
+      "difficulty": 3,
+      "id": "2026-11-21-03"
+    }
+  ]
+}
