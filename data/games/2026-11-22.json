@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-11-22",
+  "gameNumber": 145,
+  "generatedAt": "2026-11-22T06:20:37.979Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total individual grains of long-grain white rice are produced by all commercial rice paddies across Thailand in a single year?",
+      "answer": 1000000000000000,
+      "unit": "grains",
+      "category": "food",
+      "reasoning": [
+        "Thailand produces approximately 20 million metric tons of milled rice annually.",
+        "One kilogram of dry white rice contains roughly 50,000 individual grains.",
+        "Multiplying 20 million tons (20 billion kilograms) by 50,000 yields 1 quadrillion grains."
+      ],
+      "difficulty": 3,
+      "id": "2026-11-22-01"
+    },
+    {
+      "prompt": "How many total individual letters are typed across all computer keyboards used in government offices in the United Kingdom during a single standard five-day work week?",
+      "answer": 1250000000,
+      "unit": "letters",
+      "category": "technology",
+      "reasoning": [
+        "The UK civil service and government agencies employ about 500,000 public servants who use computers.",
+        "An average office worker types around 500 words or 2,500 characters per day, working 5 days a week.",
+        "Multiplying 500,000 workers by 2,500 letters per day gives 1.25 billion total keystrokes per week."
+      ],
+      "difficulty": 2,
+      "id": "2026-11-22-02"
+    },
+    {
+      "prompt": "How many total individual footsteps are taken by all participating runners who cross the finish line of the New York City Marathon in a single race year?",
+      "answer": 2100000000,
+      "unit": "footsteps",
+      "category": "sport",
+      "reasoning": [
+        "Approximately 50,000 runners finish the New York City Marathon each year.",
+        "A marathon is 42.2 kilometres long, and an average runner's stride length is about 1 metre, requiring roughly 42,000 steps per runner.",
+        "Multiplying 50,000 finishing runners by 42,000 steps each yields 2.1 billion total steps."
+      ],
+      "difficulty": 1,
+      "id": "2026-11-22-03"
+    }
+  ]
+}
