@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "date": "2026-11-23",
+  "gameNumber": 146,
+  "generatedAt": "2026-11-23T07:10:55.075Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "fallback",
+  "questions": [
+    {
+      "id": "2026-11-23-01",
+      "category": "space",
+      "prompt": "How many stars are in the Milky Way?",
+      "answer": 200000000000,
+      "unit": "stars",
+      "reasoning": [
+        "Astronomers weigh the galaxy by its light and motion, then divide by a typical star's mass.",
+        "Estimates range from 100 to 400 billion."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-23-02",
+      "category": "people",
+      "prompt": "How many bones are in the adult human body?",
+      "answer": 206,
+      "unit": "bones",
+      "reasoning": [
+        "Babies start with ~300, but many fuse as we grow.",
+        "Half of the adult total sits in the hands and feet alone."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-23-03",
+      "category": "people",
+      "prompt": "How many languages are spoken in the world?",
+      "answer": 7000,
+      "unit": "languages",
+      "reasoning": [
+        "Linguists catalogue roughly seven thousand living languages — though a few dozen dominate, and hundreds have fewer than a thousand speakers left."
+      ],
+      "difficulty": 2
+    }
+  ]
+}
