@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "date": "2026-11-24",
+  "gameNumber": 147,
+  "generatedAt": "2026-11-24T09:35:11.092Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "fallback",
+  "questions": [
+    {
+      "id": "2026-11-24-01",
+      "category": "people",
+      "prompt": "How many languages are spoken in the world?",
+      "answer": 7000,
+      "unit": "languages",
+      "reasoning": [
+        "Linguists catalogue roughly seven thousand living languages — though a few dozen dominate, and hundreds have fewer than a thousand speakers left."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-24-02",
+      "category": "nature",
+      "prompt": "How many ants are on Earth?",
+      "answer": 20000000000000000,
+      "unit": "ants",
+      "reasoning": [
+        "About 2.5 million ants for every human.",
+        "Ecologists reached this by sampling leaf litter worldwide and scaling up — the total biomass rivals humanity's."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-24-03",
+      "category": "nature",
+      "prompt": "How many litres of water does one person use at home each day?",
+      "answer": 140,
+      "unit": "litres",
+      "reasoning": [
+        "One shower is ~60 litres and a few toilet flushes add ~30 more.",
+        "Cooking, laundry and taps make up the rest — roughly one full bathtub."
+      ],
+      "difficulty": 2
+    }
+  ]
+}
