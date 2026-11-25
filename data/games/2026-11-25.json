@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "date": "2026-11-25",
+  "gameNumber": 148,
+  "generatedAt": "2026-11-25T08:06:19.146Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "fallback",
+  "questions": [
+    {
+      "id": "2026-11-25-01",
+      "category": "food",
+      "prompt": "How many calories are in a Big Mac?",
+      "answer": 550,
+      "unit": "calories",
+      "reasoning": [
+        "Two patties (~500 kcal of beef), a bun (~150) and sauce plus cheese — minus a little rounding in the official tables.",
+        "A full meal with fries and a drink is roughly double."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-25-02",
+      "category": "transport",
+      "prompt": "How many runners finish the London Marathon each year?",
+      "answer": 50000,
+      "unit": "runners",
+      "reasoning": [
+        "Around 50,000–55,000 finishers stream across Tower Bridge each spring — running shoulder to shoulder for most of the 42 kilometres."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-25-03",
+      "category": "geography",
+      "prompt": "How many countries are there in Africa?",
+      "answer": 54,
+      "unit": "countries",
+      "reasoning": [
+        "Africa has 54 fully recognised states — more than any other continent.",
+        "The world total is 195, so Africa holds over a quarter of them."
+      ],
+      "difficulty": 2
+    }
+  ]
+}
