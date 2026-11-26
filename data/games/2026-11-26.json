@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-11-26",
+  "gameNumber": 149,
+  "generatedAt": "2026-11-26T07:56:46.181Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total kilograms of raw potatoes are harvested across all commercial agricultural farms in the province of Prince Edward Island in a single year?",
+      "answer": 1200000000,
+      "unit": "kilograms",
+      "category": "agriculture",
+      "reasoning": [
+        "Prince Edward Island produces a significant portion of Canada's potatoes, roughly 1.2 billion kilograms annually.",
+        "This is achieved through tens of thousands of hectares of fertile farmland dedicated specifically to potato crops.",
+        "Multiplying the harvested acreage by average yield per hectare yields approximately 1.2 billion kilograms."
+      ],
+      "difficulty": 2,
+      "id": "2026-11-26-01"
+    },
+    {
+      "prompt": "How many total individual sheets of paper are consumed by all tax accountants filing physical paper tax returns for individual clients across Japan in a single tax season?",
+      "answer": 450000000,
+      "unit": "sheets",
+      "category": "infrastructure",
+      "reasoning": [
+        "Japan has tens of thousands of certified tax accountants preparing returns for millions of individual citizens.",
+        "Each client return and supporting document set requires roughly 15 to 20 sheets of physical paper on average.",
+        "Multiplying millions of filed returns by the average pages per client file results in around 450 million sheets."
+      ],
+      "difficulty": 3,
+      "id": "2026-11-26-02"
+    },
+    {
+      "prompt": "How many total individual stitches are sewn into all standard professional baseballs manufactured for the primary national league in Japan in a single year?",
+      "answer": 2160000,
+      "unit": "stitches",
+      "category": "sport",
+      "reasoning": [
+        "A single official professional baseball features exactly 216 raised red stitches holding its leather cover together.",
+        "League manufacturing produces around 10,000 baseballs annually for official games, practices, and reserves.",
+        "Multiplying 10,000 baseballs by 216 stitches each gives a total of 2.16 million stitches."
+      ],
+      "difficulty": 1,
+      "id": "2026-11-26-03"
+    }
+  ]
+}
