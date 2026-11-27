@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "date": "2026-11-27",
+  "gameNumber": 150,
+  "generatedAt": "2026-11-27T07:57:11.182Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "fallback",
+  "questions": [
+    {
+      "id": "2026-11-27-01",
+      "category": "technology",
+      "prompt": "How many minutes of video are uploaded to YouTube every minute?",
+      "answer": 30000,
+      "unit": "minutes",
+      "reasoning": [
+        "Creators upload ~500 hours of video per minute — twenty days of footage every sixty seconds.",
+        "Nobody could ever watch it all."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-27-02",
+      "category": "people",
+      "prompt": "How many steps does the average adult take in a day?",
+      "answer": 7500,
+      "unit": "steps",
+      "reasoning": [
+        "A brisk 30-minute walk is about 3,500 steps.",
+        "Add pottering around home, work and errands and most studies land between 5,000 and 8,000."
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "2026-11-27-03",
+      "category": "space",
+      "prompt": "How many minutes does sunlight take to reach the Earth?",
+      "answer": 8,
+      "unit": "minutes",
+      "reasoning": [
+        "Light travels 300,000 km per second and the Sun is ~150 million km away.",
+        "Divide the two and you get just over 8 minutes."
+      ],
+      "difficulty": 2
+    }
+  ]
+}
