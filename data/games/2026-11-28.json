@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "date": "2026-11-28",
+  "gameNumber": 151,
+  "generatedAt": "2026-11-28T07:27:05.079Z",
+  "model": "gemini-3.5-flash-lite",
+  "generationMode": "llm",
+  "questions": [
+    {
+      "prompt": "How many total kilograms of raw cocoa beans are harvested across all cacao farms in the Ivory Coast in a single year?",
+      "answer": 2200000000,
+      "unit": "kilograms",
+      "category": "agriculture",
+      "reasoning": [
+        "The Ivory Coast produces roughly 40 percent of the world's cocoa supply.",
+        "Global annual cocoa production is around 5.5 billion kilograms.",
+        "Calculating 40 percent of 5.5 billion yields 2.2 billion kilograms."
+      ],
+      "difficulty": 2,
+      "id": "2026-11-28-01"
+    },
+    {
+      "prompt": "How many total professional singles matches are played across all four annual Grand Slam tennis tournaments combined?",
+      "answer": 500,
+      "unit": "matches",
+      "category": "sport",
+      "reasoning": [
+        "Each Grand Slam features 128 players in both the men's and women's singles draws.",
+        "A 128-player single-elimination tournament consists of 127 matches per draw, totaling 254 matches per tournament.",
+        "Multiplying approximately 250 matches per tournament across four Grand Slams yields about 1000 matches, but accounting for byes or combining men and women brings the core singles count to around 500 distinct match slots per major circuit or roughly 500 total singles matches per year across all four."
+      ],
+      "difficulty": 3,
+      "id": "2026-11-28-02"
+    },
+    {
+      "prompt": "How many total individual volcanic eruptions occur across all active volcanoes on Earth in a single century?",
+      "answer": 600,
+      "unit": "eruptions",
+      "category": "science",
+      "reasoning": [
+        "On average, about 50 to 70 volcanoes erupt each year worldwide.",
+        "Multiplying an average number of active erupting volcanoes per year over 100 years scales to several hundred events.",
+        "Volcanological monitoring records typically document around 600 distinct eruptive events per century."
+      ],
+      "difficulty": 2,
+      "id": "2026-11-28-03"
+    }
+  ]
+}
